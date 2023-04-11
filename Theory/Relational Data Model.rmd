@@ -1,0 +1,28 @@
+# Relational Data Model
+
+## Important terms
+
+1. **Relation** - A Two dimensional table that represents table that represents some entity or relationship
+2. **Entity** - Abstraction of a real life object like a car
+3. **Relationship** - Defines how entities are connected
+4. **Attribute** - A colum in a table
+5. **Tuple** - Is a row in a table
+
+## Rules and restrictions
+
+1. There cannot be two relation with the same name in a database
+2. All attributes within the same relation should have different names
+3. there should only be one value in each cell
+4. The order of the rows and columns is not important
+
+## Integrety
+
+**Entity integrity**: This means that you can not have two identical tuples(rows) in the table. To maintain this integrity we use **primary keys (PK)**. This PK is a field or a set of field that are used that is used to uniquely identify every record in the database.
+
+**Referential integrity** accours when we have two connected relations. This relationship is provided a **foreign key(FK)**. A FK ina table is the reference to the PK of another table.
+
+## Relationships
+
+1. **one-to-one relationship (1-1)** - One row in the first table can be associated with no more than tuple of another relation.
+2. **one-to-may relationship (1-M)** - Means that a row in the fist table can multiple assosiated rows in an other table
+3. **many-to-many relationship (M-M)** - A set of tuples can have an associated set in another table (De Facto never happens, while use a central table to turn M-M into two 1-M)
