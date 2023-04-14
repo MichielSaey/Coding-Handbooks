@@ -1,3 +1,10 @@
+# SQL
+
+## Comments
+
+Comments can be inserted on a separate line or within a Transact-SQL statement. Multiple-line comments must be indicated by /* and */. A stylistic convention often used for multiple-line comments is to begin the first line with /*, subsequent lines with **, and end with */. There is no maximum length for comments
+
+
 # Relational Data Model
 
 ## Important terms
@@ -163,9 +170,44 @@ HAVING
 5. SELECT
 6. ORDER BY
 
+# `UPDATE`
 
+Changes department_id from whole set to 14
 
+UPDATE employees
+SET department_id = 14;
 
+Update id and increase sallery
+
+UPDATE employees
+SET department_id = 14,
+salary = salary + 10000;
+
+# Constraints
+
+https://hyperskill.org/learn/step/9587
+
+# Exercises
+
+## 1/4
+
+Find students who are in 3rd grade and have 5 points for all their courses.
+The output should consist of the student names only in alphabetical order.
+
+select
+    Students.name
+from main.Students
+inner join Student_Subject subject
+    on Students.student_id = subject.student_id
+where
+    Students.grade = 3
+group by
+    Students.name,
+    Students.grade
+having
+    min(subject.result) >= 5
+order by
+    Students.name
 
 
 
