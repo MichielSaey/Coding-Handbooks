@@ -168,6 +168,86 @@ HAVING
 | FB         | 2004-05-28 21:09 | 63.7    |
 | DJI        | 1998-03-31 04:18 | 52.7    |
 
+## Sub query
+
+````sql
+SELECT
+    username,
+    sign_up_date 
+FROM
+    registered_users 
+WHERE
+    sign_up_date = (
+        SELECT 
+            MIN(sign_up_date) 
+        FROM 
+            registered_users
+    ); 
+````
+
+````sql
+SELECT *, 
+    (SELECT 
+         name 
+     FROM 
+         users_info 
+     WHERE 
+         username = registered_users.username) AS name 
+FROM
+    registered_users
+````
+
+````sql
+SELECT 
+    id,
+    product 
+FROM
+    new_orders AS newor 
+WHERE unit_price < (
+    SELECT 
+        AVG(unit_price) 
+    FROM 
+        new_orders
+    WHERE 
+        product_category = newor.product_category);
+````
+
+Sub-query in update statement
+
+````sql
+UPDATE
+    students 
+SET
+    exams_passed = TRUE 
+WHERE 
+    name in (
+        SELECT
+            name
+        FROM
+            exam_results 
+        WHERE
+            math_exam_mark >= 18
+            AND english_exam_mark >= 18
+        ); 
+````
+
+Sub-query nested in the INSERT statement
+
+````sql
+INSERT INTO employees 
+VALUES (
+    'Tomas Hedwig', 
+    (SELECT salary FROM employees WHERE name = 'Ann Reed'), 
+    (SELECT id FROM departments WHERE department = 'PR')
+)
+````
+
+Sub-queries nested in the DELETE statement
+
+````sql
+DELETE FROM orders
+WHERE customer_id = (SELECT customer_id FROM customers WHERE name = 'Ann Smith')
+````
 
 # Table alterations
 
@@ -199,6 +279,28 @@ delete from table_name where [condition]
 
 ````sql
 TRUNCATE TABLE products
+````
+
+## `INSET INTO`
+
+Let's move the information from the column customer to the column user, from email to user_email and from zip_code to zip_code. We can use the INSERT INTO SELECT statement to do it.
+
+````sql
+INSERT INTO unsers (user, user_email, zip_code)
+SELECT * FROM customers
+````
+
+````sql
+INSERT INTO users
+SELECT 
+    supplier,
+    supplier_email,
+    zip_code,
+    city
+FROM
+    suppliers
+WHERE
+    supplier = 'Tomato Inc'
 ````
 
 # Aggregate functions
@@ -302,9 +404,146 @@ FROM
     employees; 
 ```
 
+## User defined variables
 
+In MySQL, we can use both `SET` and `SELECT` commands to declare the variable. The assignment operator also has no restrictions: we can use either = or :=, depending on the situation. The user-defined variable can be any data type: integer, decimal, string, boolean, and so on.
 
-# Constraints
+````sql
+SET @name = 'MySql';
+    
+SELECT @name
+````
+
+````sql
+SELECT @max_price := MAX(price) FROM products;
+
+SELECT * FROM products
+WHERE price = @max_price;
+````
+
+## Local variables
+
+The variables we discussed in the previous paragraph can be used in any part of the program. In contrast to that, local variables can only be used in a specific block of code, and cannot be accessed outside of this block of code. Local variables also have their own peculiarities.
+
+````sql
+DECLARE a INT;
+DECLARE b INT;
+DECLARE c INT DEFAULT 30;
+
+SET a = 5;
+SET b = 10;
+
+SELECT a + b + c;
+````
+
+## System variables
+System variables are variables that have already been created by the DBMS itself. They store the data we need to work with the database. Each system variable in MySQL has a default value, and these system variables are used to configure the way the database operates.
+
+````sql
+SHOW VARIABLES;
+````
+
+## Views
+
+````sql
+CREATE VIEW favorite_books AS
+SELECT 
+    author_name, 
+    book_name
+FROM 
+    books
+WHERE 
+    plot_score = 5;
+````
+
+````sql
+CREATE VIEW sales_by_film_category
+AS
+SELECT
+   c.name AS category,
+   SUM(p.amount) AS total_sales
+FROM payment AS p
+   JOIN rental AS r ON p.rental_id = r.rental_id
+   JOIN inventory AS i ON r.inventory_id = i.inventory_id
+   JOIN film AS f ON i.film_id = f.film_id
+   JOIN film_category AS fc ON f.film_id = fc.film_id
+   JOIN category AS c ON fc.category_id = c.category_id
+GROUP BY c.name;
+````
+
+## Triggers
+
+A trigger is a database object that is associated with the database table. Accordingly, when you delete a table, all triggers associated with it will also be deleted.
+
+A trigger is a stored procedure that you create and specifically place inside your table. After that, it will independently execute the created operations inside the database. It will be automatically activated when the defined in your trigger event arrives in the database table.
+
+Triggers have the following advantages. As they are self-executing from within the database, they are often used to save incoming information to multiple database locations. Also, they may be recording and logging user actions, and checking rules for incoming data into database tables.
+
+Because triggers run on their own, you need to keep check of what triggers are in your database and what they do, as it's almost impossible to track their actions from the outside.
+
+See an overview of all triggers.
+
+````sql
+SHOW TRIGGERS;
+````
+
+To drop a trigger:
+
+````sql
+DROP TRIGGER big_salary;
+````
+
+The following trigger will update a variable everytime it is updated:
+
+````sql
+CREATE TRIGGER additional_salary
+BEFORE INSERT ON employee 
+FOR EACH ROW 
+SET @sum = @sum + NEW.salary;
+````
+
+Every time a new employe is inserted it will check if the salary is valled.
+
+````sql
+CREATE TRIGGER big_salary
+BEFORE INSERT ON employee
+FOR EACH ROW PRECEDES additional_salary
+IF NEW.salary>5000 THEN SIGNAL SQLSTATE '45000'
+SET MESSAGE_TEXT = 'Salary has exceeded the allowed amount of 5000.00';
+END IF;
+````
+
+Archiving deleted data
+
+````sql
+CREATE TABLE fired_employee (ID INT, name VARCHAR(20), fire_date DATE);
+
+CREATE TRIGGER save_fire_employee
+    AFTER DELETE
+    ON employee
+    FOR EACH ROW
+BEGIN
+    INSERT INTO fired_employee VALUES (OLD.id, OLD.name, CURDATE());
+    SET @sum = @sum - OLD.salary;
+END;
+
+DELETE FROM employee WHERE id = 1;
+````
+
+````sql
+CREATE TRIGGER upd_check_salary
+BEFORE UPDATE ON employee
+FOR EACH ROW
+BEGIN
+    IF NEW.salary < 0 THEN
+        SET NEW.salary = 0;
+    ELSEIF NEW.salary > 5000.00 THEN
+        SET NEW.salary = 5000.00;
+    END IF;
+END;
+````
+
+## Constraints
 
 https://hyperskill.org/learn/step/9587
 
