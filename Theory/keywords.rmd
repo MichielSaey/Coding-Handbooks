@@ -1,0 +1,11 @@
+## Break
+The break statement in Python terminates the current loop and resumes execution at the next statement.
+End loop
+
+## Pass
+
+The pass statement in Python is used when a statement is required syntactically but you do not want any command or code to execute.
+
+## Continue
+
+The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop.
