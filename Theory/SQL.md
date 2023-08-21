@@ -11,17 +11,26 @@
   * [`ORDER BY`](#order-by)
   * [`GROUP BY`](#group-by)
   * [`HAVING`](#having)
+  * [Sub query](#sub-query)
 * [Table alterations](#table-alterations)
   * [`UPDATE`](#update)
   * [`DELETE`](#delete)
+  * [`TURNCATE`](#turncate)
+  * [`INSET INTO`](#inset-into)
 * [Aggregate functions](#aggregate-functions)
   * [Examples of usage](#examples-of-usage)
   * [`CASE`](#case)
   * [`COALESCE`](#coalesce)
-* [Constraints](#constraints)
+  * [User defined variables](#user-defined-variables)
+  * [Local variables](#local-variables)
+  * [System variables](#system-variables)
+  * [Views](#views)
+  * [Triggers](#triggers)
+  * [Constraints](#constraints)
 * [Exercises](#exercises)
   * [1/4](#14)
   * [2/4](#24)
+  * [3/4](#34)
 <!-- TOC -->
 
 # SQL
@@ -58,6 +67,80 @@ Comments can be inserted on a separate line or within a Transact-SQL statement. 
 1. **one-to-one relationship (1-1)** - One row in the first table can be associated with no more than tuple of another relation.
 2. **one-to-may relationship (1-M)** - Means that a row in the fist table can multiple assosiated rows in an other table
 3. **many-to-many relationship (M-M)** - A set of tuples can have an associated set in another table (De Facto never happens, while use a central table to turn M-M into two 1-M)
+
+# Indexes
+Indexes organize data in a special way that significantly increases the speed of READ queries.
+
+By default, databases either store entries of a dataset in an unordered way or order them according to some internal 
+rule depending on an internal attribute. It would take too long to find one or more entries that match the given 
+criteria if the amount of data is really huge. A database index represents a data structure that is formed from the 
+values of one or more attributes and points to the corresponding entries of the data. It boosts the data-finding process
+but requires some extra space to store this additional structure.
+
+## Types of indexes
+
+**Simple or compound**: The simple index is created by a single attribute. Whereas teh compount or composit index is 
+built on top of two or more attributes of entries. It is also possible to use several simple and/or composite indexes 
+together.
+
+**Clustered and non-clustered**: The clustered index is an index that physically reorganizes the order in which the data 
+entries are stored and gives the maximum speedup. Whereas a non-clustered index doesn't change the physical structure of 
+a dataset, but only organizes references to the corresponding entries.
+
+The **unique index** is used to ensure data integrity by prohibiting duplicate values in one or more attributes of data entries.
+
+The **partial index** is created on a specific subset of data based on a given criterion.
+
+## B-Tree Indexes
+
+**B-Tree** is the most common type of index. When developers say "index", they often mean this type by default because 
+it is supported by all popular databases and can be used in many different scenarios. As the name suggests, this index 
+is based on a balanced tree that maintains data sorted according to a specified condition.
+
+The top node is the root, and those below it are either child nodes or leaf nodes. We always start searching for our row 
+from the root node. We compare if the value we’re searching for is less than or greater than the value in the node at 
+hand. The result of the comparison tells us which way to go, left or right, depending on the result of our comparison. 
+In the example above, all values lower than 1800 take us to the left, while values greater than 1800 take us to the 
+right, and so on.
+
+Moreover, B-Tree indexes are not limited to working with numbers only. They can be used with dates, times, strings, and 
+other ordered data types. However, there is an important limitation when working with strings and B-Tree indexes: the 
+equality operator works only from the leftmost part of a string (e.g. "c...", "ca..", "cat...") in alphabetical order. 
+So, if you search for all strings that match the pattern like "..cat..", your index won't work. In this case, you should 
+use an inverted Index.
+
+## Hash Index
+
+As you might have guessed, the hash index is based on a hash function. This function converts any database value to a 
+numeric value called hash code. Once you have a query that uses comparison by this value, the database doesn't have to 
+scan the entire dataset to find the match. Instead, it will calculate the hash of the value used in the query condition 
+and directly access that place where data with the same hash is stored.
+
+## Bitmap index
+
+The bitmap index is a special type of index that is used when an attribute has a small number of distinct values 
+compared to the total number of entries with this attribute. This situation is called low cardinality. There are just 
+two possible boolean values false and true. Bitmap indexes are fast to create and don't require a lot of space if we 
+compare them with B-Tree indexes. Some databases may create a bitmap index automatically for every query when it is 
+needed.
+
+## Inverted index
+
+The inverted index is another type of index that is primarily used to find data in textual attributes or arrays. The 
+typical scenario when you need to use this index is a full-text search. The key idea of an inverted index is to keep a 
+special data structure that connects terms (words or values), which are used in search, to entries when the terms occur. 
+The example below gives you an example of the index:
+
+ * "green" -> [1, 2, 3]
+ * "red" -> [2, 3, 5]
+ * "summer" -> [1, 2, 6]
+
+## Spatial index
+
+The spatial index is an index used to speed up work with geometrical and geographical data (geospatial). Spatial indexes 
+are usually used in navigation and geographic information databases. These indexes can quickly respond to queries such 
+as "Find all museums within 5 km of a specific location". In practice, there are different data structures that can be 
+used to organize spatial indexes; one of them is R-Tree.
 
 # Search a data base
 
@@ -546,6 +629,106 @@ END;
 ## Constraints
 
 https://hyperskill.org/learn/step/9587
+
+## Window functions
+
+Working with a database, you may need to analyze some data. Your employer might ask you to create a list of those who overperform in your company or to make a sales report with three-month rolling averages. You can use some external tools, such as Excel or Python. Or you can use the built-in SQL functionality. In this topic, we will learn, how to do these tasks with MySQL window functions.
+
+To understand the window function concept, imagine that MySQL has completed all of the query steps, including joining, grouping, and sorting. So, the result set is ready to be returned. What if we tried to stop the query execution at this point, aggregate some data, and analyze it? Of course, you can do this using the GROUP BY construction. However, it means a lot of restrictions: you will get only the unique values of the required columns, so the result will be fewer rows than the original table. Window functions record the result in separate columns and don't change the number of rows. Also, it gives you some useful tools, like an opportunity to set the order of rows bypass.
+
+Let's take a closer look at some simple examples. In the query below, you "open the window" through the OVER() statement and summarize the number of sold tickets.
+
+```sql
+SELECT
+    film_name,
+    film_genre,
+    ticket_number,
+    SUM(ticket_number) OVER() AS sum
+FROM 
+    film_sales;
+```
+
+| film_name          | film_genre | ticket_number | sum |
+|--------------------|------------|---------------|-----|
+| The Lion King      | cartoon    | 3             | 18  |
+| Shrek              | cartoon    | 4             | 18  |
+| Back to the Future | fiction    | 2             | 18  |
+| Inception          | fiction    | 6             | 18  |
+| Intouchables       | drama      | 3             | 18  |
+
+As you can see, it is the total amount in the sum column for the whole table. If you want to calculate tickets for each genre separately, you may use the PARTITION BY construction inside the OVER clause, like this:
+
+````sql
+SELECT
+    film_name,
+    film_genre,
+    ticket_number,
+    SUM(ticket_number) OVER(PARTITION BY film_genre) AS sum
+FROM 
+    film_sales;
+````
+
+| film_name          | film_genre | ticket_number | sum |
+|--------------------|------------|---------------|-----|
+| The Lion King      | cartoon    | 3             | 7   |
+| Shrek              | cartoon    | 4             | 7   |
+| Back to the Future | fiction    | 2             | 8   |
+| Inception          | fiction    | 6             | 8   |
+| Intouchables       | drama      | 3             | 3   |
+
+Apparently, the window functions can be compared with aggregate functions. The difference is that, after dividing into sets, window functions still process and return each row separately. In contrast, aggregate functions do not return all rows but only the results of groups.
+
+What kind of parameters can we clarify in the OVER() clause?
+
+
+`OVER([partition_clause] [order_clause] [frame_clause])`
+* `partition_clause` points to the column, by which values of the query rows are divided into groups. if this parameter is not specified, rows are considered as one big group.
+* `order_clause` indicates in what order the rows inside the partition should be placed while executing a window function. While it is unfortunate that exactly the same syntax is used for different purposes, be careful: if you want to have a certain order in the final result, you still need to use ORDER BY clause at the end of the query.
+* `frame_clause` restricts the window borders relative to the position of the current row. For instance, you can calculate the rolling sum, taking the current, previous, and next rows. You can read more here.
+
+**What can we do with window functions?** For a start, you can generate different rankings. By using row_number(), you can simply number the rows in each division. rank() assigns the same numbers to equal values with gaps, dense_rank() does that without gaps. This is easier to understand if you look at the example below, where we select the students with the best exam results and their numbers in the overall rating:
+
+````sql
+SELECT 
+    name,
+    exam_score,
+    row_number() OVER() AS row_number,
+    rank() OVER() AS rank,
+    dense_rank() OVER() AS dense_rank
+FROM
+    report_journal
+ORDER BY exam_score
+````
+
+| name  | exam_score | row_number | rank | dense_rank |
+|-------|------------|------------|------|------------|
+| Mark  | 100        | 1          | 1    | 1          |
+| Emma  | 99         | 2          | 2    | 2          |
+| Harry | 99         | 3          | 2    | 2          |
+| Maria | 98         | 4          | 4    | 3          |
+| Paul  | 97         | 5          | 5    | 4          |
+
+Also, you can aggregate data, using min, max, avg, and other functions, but instead of placing it in the GROUP BY clause, you can put it in the OVER() clause. A simple example was at the top of this topic. According to it, here is how you can calculate the rolling sum, using FRAME clause (pay attention, the semantic part goes right away, without any keyword):
+
+````sql
+SELECT
+    film_name,
+    film_genre,
+    ticket_number,
+    SUM(ticket_number) OVER(PARTITION BY film_genre ROWS BETWEEN CURRENT ROW AND 1 FOLLOWING) AS sum 
+FROM
+    film_sales;
+````
+
+| film_name          | film_genre | ticket_number | sum |       |
+|--------------------|------------|---------------|-----|-------|
+| The Lion King      | cartoon    | 3             | 7   | = 3+4 |
+| Shrek              | cartoon    | 4             | 4   | = 4   |
+| Back to the Future | fiction    | 2             | 8   | = 2+6 |
+| Inception          | fiction    | 6             | 15  | = 6+9 |
+| Harry Potter       | fiction    | 9             | 9   | = 9   |
+
+
 
 # Exercises
 
