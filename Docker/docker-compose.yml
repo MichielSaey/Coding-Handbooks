@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  mysql:
+    container_name: mysql
+    image: mysql:8.0
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MSQL_DATABASE: TAWOS
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    volumes:
+      - ./mysql:/var/lib/mysql
+      - ./TAWOS.sql:/docker-entrypoint-initdb.d/init.sql
+
+  dynamodb:
+    container_name: dynamodb
+    image: amazon/dynamodb-local
+    restart: always
+    ports:
+      - 8000:8000
+    volumes:
+      - ./dynamodb:/home/dynamodblocal/data
