@@ -1,29 +1,312 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a130c74-f53f-491c-b695-874d52ea7458" name="Changes" comment="" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="kotlin libraries">
+      <change afterPath="$PROJECT_DIR$/Practice/.ipynb_checkpoints/Threading-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Kotlin/Kotlin Notebook.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Kotlin/Microstreams.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/CProfile.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/CSV.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Collections.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Glob.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Jira.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Logging.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Openpyxl.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Pprint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices/01_pytorch_workflow_ex.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices/02_pytorch_classification_ex.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices/models/01_pytorch_workflow_EX_model_1.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/00_pytorch_fundamentals.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/01_pytorch_workflow.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/02_pytorch_classification.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/helper_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/models/01_pytorch_workflow_model_0.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/models/01_pytorch_workflow_model_1.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/SQLAlchemy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/SQLModel.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Sqlite3.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Thread.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Threading.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Time.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Timeit.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/Unittest.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python/pyclickup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/1.3.1_fourth.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/1.3.2_sum-3-squares.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/1.3.3_celsius_naar_fahrenheit.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/1.8.1_discount.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Handbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Handbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cheatsheets/Code to remeber.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Cheatsheets/Python code to remeber.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/.ipynb_checkpoints/Threading-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Buildings_Database.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Kotlin/Kotlin Notebook.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Kotlin/Microstreams.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/PyTorch/Exercices/02_pytorch_classification_ex.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/CProfile.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/CSV.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Collections.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Glob.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Jira.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Logging.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Openpyxl.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Pprint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Exercices/01_pytorch_workflow_ex.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Exercices/models/01_pytorch_workflow_EX_model_1.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/00_pytorch_fundamentals.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/01_pytorch_workflow.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/02_pytorch_classification.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/helper_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/models/01_pytorch_workflow_model_0.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/models/01_pytorch_workflow_model_1.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/SQLAlchemy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/SQLModel.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Sqlite3.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Thread.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Threading.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Time.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Timeit.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Unittest.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/pyclickup.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/SQLAlchemy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/alchemy.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/users.db" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Kotlin Jupyter Notebook" />
+        <option value="Kotlin Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MichielSaey&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8c01a042-b9e7-4256-8eaa-c5da716622c0" />
+        <option name="url" value="https://github.com/MichielSaey/Python_handbooks.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="namespacesByContext">
+      <map>
+        <entry key="docker-desktop" value="default" />
+      </map>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2T6gozJKjJ5gc1iAYjKkpMUInMI" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2UIeUIp4PGABwEdvFO7RujdDDyT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/michiel/Code/Python_handbooks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Practice/Python" />
+      <recent name="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices" />
+      <recent name="$PROJECT_DIR$/Docker/Data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker.dynamodb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="dynamodb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker: Compose Deployment" />
+        <item itemvalue="Docker.Docker.db: Compose Deployment" />
+        <item itemvalue="Docker.Docker.dynamodb: Compose Deployment" />
+        <item itemvalue="Docker.Docker/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="" />
+      <created>1692631536635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692631536635</updated>
+      <workItem from="1692631537680" duration="97000" />
+      <workItem from="1692631639831" duration="26000" />
+      <workItem from="1692631669666" duration="2455000" />
+      <workItem from="1693852723404" duration="50000" />
+      <workItem from="1693857789679" duration="2914000" />
+      <workItem from="1694167098923" duration="2013000" />
+      <workItem from="1694172299649" duration="6255000" />
+      <workItem from="1694178563249" duration="594000" />
+      <workItem from="1694179163462" duration="641000" />
+      <workItem from="1694290078859" duration="1451000" />
+      <workItem from="1694291534744" duration="141000" />
+      <workItem from="1694291681965" duration="42000" />
+      <workItem from="1694291729020" duration="2760000" />
+      <workItem from="1694295098666" duration="16000" />
+      <workItem from="1694363763583" duration="12000" />
+      <workItem from="1695982066646" duration="410000" />
+      <workItem from="1695984401311" duration="2933000" />
+    </task>
+    <task id="LOCAL-00001" summary="kotlin libraries">
+      <option name="closed" value="true" />
+      <created>1692633956884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692633956884</updated>
+    </task>
+    <task id="LOCAL-00002" summary="kotlin libraries">
+      <option name="closed" value="true" />
+      <created>1692634103314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692634103314</updated>
+    </task>
+    <task id="LOCAL-00003" summary="kotlin libraries">
+      <option name="closed" value="true" />
+      <created>1695982107497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695982107497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kotlin libraries" />
+    <option name="LAST_COMMIT_MESSAGE" value="kotlin libraries" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
 </project>
