@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="idea settings">
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Pandas.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/2.1.1_sign.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/2.1.2_leap-year.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/2.3.1_my-and.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/2.3.3_my-or.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/2.3.4_my-if.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3.1.1_recursief.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3.1.2_iteratief.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3.2.1_fast_multiply.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3.2_multiply.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3.3.1_het_getal_e.scm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -79,7 +88,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/michiel/Code/Python_handbooks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Michiel/PycharmProjects/Coding-Handbooks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -88,7 +97,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -104,19 +113,7 @@
       <recent name="$PROJECT_DIR$/Docker/Data" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Docker.Docker.db: Compose Deployment">
     <configuration name="Docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -159,6 +156,18 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -185,6 +194,10 @@
       <workItem from="1694363763583" duration="12000" />
       <workItem from="1695982066646" duration="410000" />
       <workItem from="1695984401311" duration="2933000" />
+      <workItem from="1697015767525" duration="30000" />
+      <workItem from="1697015806969" duration="555000" />
+      <workItem from="1697016402524" duration="9000" />
+      <workItem from="1697016424468" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
