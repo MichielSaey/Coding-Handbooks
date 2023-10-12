@@ -26,3 +26,23 @@
 
 (exact->inexact (calc-e 10))
 ;2.7182818011463845
+
+;Oplossing
+
+;Ze vragen iteratief die hiervoor mag je er vanuit gaan dat je een hulp functie en een cumulatieve par gaat nodig
+;hebben.
+
+(define (calc-e-iter n)
+  (define (iter ctr res fac-prev) ;ctr = counter(i in for loops), res = de comulatieve, fac-prev = de voorgaande
+    (if (> ctr n) ;basicly do while ctr is <= n
+      res ; als het gevraagde aantal is berekend return je het resultaat
+      (let ((new-fac (* ctr fac-prev))) ;ctr vermenigvuldigen met fac-prev om de volgende fac te berekenen
+        (iter (+ ctr 1) (+ res (/ 1 new-fac)) new-fac) ;n++ voor counter, res + 1/fac(n), 'save point' fac
+        )
+      )
+    )
+  (iter 1 1 1)
+  )
+
+(exact->inexact (calc-e-iter 10))
+(exact->inexact (calc-e-iter 3))
