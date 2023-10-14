@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.5_mutuele_recursie.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.6.1_implementeer.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.6.2_bereken_de_recursie_diepte.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/ 3.9.2_parasol.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.7.2_binaire_vormen.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.9.1_display-n.scm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/1.3.1_fourth.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/1 Expressies en Procedures/1.3.1_fourth.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/1.3.2_sum-3-squares.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/1 Expressies en Procedures/1.3.2_sum-3-squares.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/1.3.3_celsius_naar_fahrenheit.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/1 Expressies en Procedures/1.3.3_celsius_naar_fahrenheit.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/1.8.1_discount.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/1 Expressies en Procedures/1.8.1_discount.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2.1.1_sign.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.1.1_sign.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2.1.2_leap-year.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.1.2_leap-year.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2.3.1_my-and.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.3.1_my-and.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2.3.3_my-or.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.3.3_my-or.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2.3.4_my-if.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.3.4_my-if.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3.1.1_recursief.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.1.1_recursief.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3.1.2_iteratief.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.1.2_iteratief.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3.2.1_fast_multiply.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.2.1_fast_multiply.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3.2_multiply.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.2_multiply.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3.3.1_het_getal_e.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.3.1_het_getal_e.scm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,35 +71,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Michiel/PycharmProjects/Coding-Handbooks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Michiel/PycharmProjects/Coding-Handbooks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\3 Processen Recursie versus Iteratie" />
@@ -208,6 +194,8 @@
       <workItem from="1697015806969" duration="555000" />
       <workItem from="1697016402524" duration="9000" />
       <workItem from="1697016424468" duration="40000" />
+      <workItem from="1697186512186" duration="1095000" />
+      <workItem from="1697192189154" duration="9210000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -241,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697058190966</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="oefening scheme">
+      <option name="closed" value="true" />
+      <created>1697108804731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697108804731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

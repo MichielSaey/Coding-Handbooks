@@ -8,21 +8,24 @@ Forked from [egregius313/scheme-help.md](https://gist.github.com/egregius313/e20
 
 TODO: These are not yet implemented in the sheet but are mentioned in the index:
 - apply
-- car
-- cdr
-- cdar
+- equal?
 - length
 - max
 - min
-- not
+- reverse
+
+## Index
 
 - [and](#and)
 - [append](#append)
 - [apply](#apply)
+- [begin](#begin)
+- [case](#case)
 - [car](#car)
 - [cadr](#cadr)
 - [cdr](#cdr)
 - [cdar](#cdar)
+- [caddr](#caddr)
 - [cond](#cond)
 - [cons](#cons)
 - [define](#define)
@@ -31,13 +34,15 @@ TODO: These are not yet implemented in the sheet but are mentioned in the index:
 - [if](#if)
 - [lambda](#lambda)
 - [length](#length)
+- [let](#let)
 - [list](#list)
 - [map](#map)
 - [max](#max)
 - [min](#min)
 - [modulo](#modulo)
-- [or](#or)
 - [not](#not)
+- [or](#or)
+- [quotient](#quotient)
 - [reverse](#reverse)
 - [Comparsion Functions (=, >, <, >=, <=)](#comparison)
 
@@ -69,6 +74,18 @@ Takes two or more lists and returns the result of concatenating those lists toge
 '(a b c d e f g h i)
 ```
 
+## begin
+`begin` is a macro that allows you to execute multiple expressions in sequence.
+
+```scheme
+  (if (> n 0)
+      (begin
+        (display-n x (- n 1))
+        (display x)
+        )
+      )
+```
+
 ## case
 
 `case` is a [macro](#macro) which provides similar/identical functionality to switch/case in
@@ -84,6 +101,51 @@ C-style languages.
         ('(F) "Maybe this just isn't your thing")))
 > (message-for-grade 'B)
 "Not bad! Keep up the good work."
+```
+
+## car
+
+`car` returns the first element of a list.
+
+```scheme
+> (car (list 1 2 3))
+1
+```
+
+## cadr
+
+`cadr` returns the second element of a list.
+
+```scheme
+> (cadr (list 1 2 3))
+2
+```
+
+## cdr
+
+`cdr` returns the rest of the list after the first element.
+
+```scheme
+> (cdr (list 1 2 3))
+'(2 3)
+```
+
+## cdar
+
+`cdar` returns the rest of the list after the first element of the first element.
+
+```scheme
+> (cdar (list (list 1 2 3) (list 4 5 6)))
+'(2 3)
+```
+
+## caddr
+
+`caddr` returns the third element of a list.
+
+```scheme
+> (caddr (list 1 2 3))
+3
 ```
 
 ## cond
@@ -121,6 +183,8 @@ Add an element to the beginning of a list.
 ```
 
 ## define
+
+`define` is the way to set variables and to define functions.
 
 ```scheme
 (define name value)
@@ -226,6 +290,24 @@ functions like map, filter, and reduce
 > (add-2-to-each '(1 20 13 401 5 108 71))
 '(3 22 15 403 7 110 73)
 ```
+## let
+
+The `let` expression is used to create local variables. It is similar to `define` except that the variable is only accessible within the `let` expression.
+
+```scheme
+> (let ((x 10)
+        (y 20))
+    (+ x y))
+
+30
+
+;Here let is used to store the result of a (quotient 13 4) in a variable named result
+
+> (let ((result (quotient 13 4)))
+    (display result)
+    (display "\n"))
+```
+
 
 ## list
 
@@ -238,6 +320,14 @@ functions like map, filter, and reduce
 > (list 1 'a 2.3 3 4.5e+3)
 '(1 a 2.3 3 4.5e+3)
 ```
+
+These are all functions that can be used to manipulate lists:
+* [car](#car)
+* [cadr](#cadr)
+* [cdr](#cdr)
+* [cdar](#cdar)
+* [caddr](#caddr)
+* [cons](#cons)
 
 ## map
 
@@ -263,6 +353,16 @@ applied to
 (modulo 13 -4) ;-3
 (modulo -13 -4) ;-1
 ```
+## not
+
+`not` takes one argument and returns the opposite of it.
+
+```scheme
+; Not False is True
+> (not #f)
+#t
+
+```
 
 ## or
 
@@ -280,6 +380,18 @@ applied to
 
 **Note**: `or` expands into a series of `if` branches when the compiler reads the code.
 It cannot be used as a function with functions like [map](#map), [filter](#filter) and [reduce](#reduce).
+
+## quotient
+
+`quotient` is the whole number equivalent of the `/`. It returns the quotient of n divided by d, truncated towards zero.
+
+```scheme
+
+(quotient 13 4) ;3
+(quotient -13 4) ;-3
+(quotient 13 -4) ;-3
+(quotient -13 -4) ;3
+```
 
 ## Comparison Functions
 
