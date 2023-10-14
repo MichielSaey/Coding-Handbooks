@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/ 3.9.2_parasol.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.7.2_binaire_vormen.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.9.1_display-n.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/5.6_element_toevoegen_achteraan_een_lijst.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/5.7_append.scm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +193,8 @@
       <workItem from="1697016402524" duration="9000" />
       <workItem from="1697016424468" duration="40000" />
       <workItem from="1697186512186" duration="1095000" />
-      <workItem from="1697192189154" duration="9210000" />
+      <workItem from="1697192189154" duration="9324000" />
+      <workItem from="1697275894143" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -237,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697108804731</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="oefening scheme">
+      <created>1697273959037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697273959037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
