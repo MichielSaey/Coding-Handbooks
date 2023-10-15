@@ -153,6 +153,8 @@ C-style languages.
 `cond` is a nice [macro](#macro) that helps abstract away heavily nested `if` expressions. It's used like
 how Python's `elif` keyword is used to avoid nested if statements.
 
+It is somewhere in between [if](#if) and [case](#case) in terms of functionality.
+
 ```scheme
 ;; Compare two numbers `x` and `y`, returns:
 ;;    0  if they are equal
@@ -290,6 +292,15 @@ functions like map, filter, and reduce
 > (add-2-to-each '(1 20 13 401 5 108 71))
 '(3 22 15 403 7 110 73)
 ```
+## length
+
+`length` returns the length of a list.
+
+```scheme
+> (length '(1 2 3 4 5))
+5
+```
+
 ## let
 
 The `let` expression is used to create local variables. It is similar to `define` except that the variable is only accessible within the `let` expression.

@@ -18,21 +18,27 @@
 ;()
 
 ;Oplossing
-(define (rec-reverse l)
-  (if (list) ;if 1 return the list
-    result
+(define(rec-reverse l)
+  (if (<= (length l) 1) ;if 1 return the list
+    l
     ;if not get the last and add it to to the front of the result of the next rec
+    (append (rec-reverse (cdr l)) (list (car l)))
     )
-
-  (rec-reverse l '())
   )
 
 (define (iter-reverse l)
+  (define (list-iter list result)
+    (if (null? list) ;if 1 return the list
+      result
+      (list-iter (cdr list) (cons (car list) result))
+      )
+    )
+  (list-iter l '())
   )
 
 ;Test
-(rec-reverse '(1 2 3))
-(rec-reverse '(1))
-(iter-reverse '(1 2 3))
-(iter-reverse '(1))
-(iter-reverse '())
+;(rec-reverse '(1 2 3))
+;(rec-reverse '(1))
+;(iter-reverse '(1 2 3))
+;(iter-reverse '(1))
+;(iter-reverse '())
