@@ -462,7 +462,7 @@ a new list only containing
 ```
 `cross-product` takes two sets A and B and returns `{(a, b) | a in A, b in B}`
 
-## Set functions <a name="set-functions"/>
+## Set functions
 
 ### element?
 
@@ -580,7 +580,7 @@ from each set EXACTLY once.
 ```
 
 
-# Predicates <a name="predicates"/>
+# Predicates
 
 A predicate is a function/procedure/method that returns a boolean (true/false) value
 based on its inputs. Here is a list of common predicates built into the Racket module
