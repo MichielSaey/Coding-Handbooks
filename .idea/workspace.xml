@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.10.2_change_dmv_map.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.11_my-equal.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.12.1_sommatie_lijsten_rec.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/Taken/Taak 1/driehoek.scm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Kotlin Jupyter Notebook" />
+        <option value="Kotlin Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MichielSaey&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8c01a042-b9e7-4256-8eaa-c5da716622c0" />
+        <option name="url" value="https://github.com/MichielSaey/Python_handbooks.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="namespacesByContext">
+      <map>
+        <entry key="docker-desktop" value="default" />
+      </map>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2UIeUIp4PGABwEdvFO7RujdDDyT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/michi/DataspellProjects/Python_handbooks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\3 Processen Recursie versus Iteratie" />
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\2 Procedures, condities en blokstructuren" />
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\1 Expressies en Procedures" />
+      <recent name="$PROJECT_DIR$/Practice/Python" />
+      <recent name="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Docker.db: Compose Deployment">
+    <configuration name="Docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker.dynamodb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="dynamodb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="" />
+      <created>1692631536635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692631536635</updated>
+      <workItem from="1692631537680" duration="97000" />
+      <workItem from="1692631639831" duration="26000" />
+      <workItem from="1692631669666" duration="2455000" />
+      <workItem from="1693852723404" duration="50000" />
+      <workItem from="1693857789679" duration="2914000" />
+      <workItem from="1694167098923" duration="2013000" />
+      <workItem from="1694172299649" duration="6255000" />
+      <workItem from="1694178563249" duration="594000" />
+      <workItem from="1694179163462" duration="641000" />
+      <workItem from="1694290078859" duration="1451000" />
+      <workItem from="1694291534744" duration="141000" />
+      <workItem from="1694291681965" duration="42000" />
+      <workItem from="1694291729020" duration="2760000" />
+      <workItem from="1694295098666" duration="16000" />
+      <workItem from="1694363763583" duration="12000" />
+      <workItem from="1695982066646" duration="410000" />
+      <workItem from="1695984401311" duration="2933000" />
+      <workItem from="1697015767525" duration="30000" />
+      <workItem from="1697015806969" duration="555000" />
+      <workItem from="1697016402524" duration="9000" />
+      <workItem from="1697016424468" duration="40000" />
+      <workItem from="1697186512186" duration="1095000" />
+      <workItem from="1697192189154" duration="9324000" />
+      <workItem from="1697275894143" duration="1000" />
+      <workItem from="1697373596231" duration="386000" />
+      <workItem from="1697374025043" duration="634000" />
+      <workItem from="1697374698422" duration="110000" />
+      <workItem from="1697776992029" duration="188000" />
+      <workItem from="1697778597455" duration="497000" />
+      <workItem from="1697787664683" duration="212000" />
+      <workItem from="1697787883140" duration="5769000" />
+    </task>
+    <task id="LOCAL-00001" summary="kotlin libraries">
+      <option name="closed" value="true" />
+      <created>1692633956884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692633956884</updated>
+    </task>
+    <task id="LOCAL-00002" summary="kotlin libraries">
+      <option name="closed" value="true" />
+      <created>1692634103314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692634103314</updated>
+    </task>
+    <task id="LOCAL-00003" summary="kotlin libraries">
+      <option name="closed" value="true" />
+      <created>1695982107497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695982107497</updated>
+    </task>
+    <task id="LOCAL-00004" summary="oefening scheme">
+      <option name="closed" value="true" />
+      <created>1697058190966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697058190966</updated>
+    </task>
+    <task id="LOCAL-00005" summary="oefening scheme">
+      <option name="closed" value="true" />
+      <created>1697108804731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697108804731</updated>
+    </task>
+    <task id="LOCAL-00006" summary="oefening scheme">
+      <created>1697273959037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697273959037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kotlin libraries" />
+    <MESSAGE value="idea settings" />
+    <MESSAGE value="oefening scheme" />
+    <option name="LAST_COMMIT_MESSAGE" value="oefening scheme" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
