@@ -1,5 +1,17 @@
-https://www.markdownguide.org/cheat-sheet
-https://www.jetbrains.com/help/dataspell/markdown.html# H1
+---
+title: "Book Example"
+date: "2018-05-18"
+author: "Jaan Tollander de Balsch"
+bibliography: "bibliography.bib"
+link-citations: true
+urlcolor: "green"
+---
+
+Based on
+
+* https://www.markdownguide.org/cheat-sheet
+* https://www.jetbrains.com/help/dataspell/markdown.html#
+
 # H1
 ## H2
 ### H3
@@ -45,6 +57,8 @@ Image	![alt text](image.jpg)
 Footnote	Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
+
+a refrence [@online]
 
 ### My Great Heading {#custom-id}
 
