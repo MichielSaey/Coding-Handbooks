@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.10.2_change_dmv_map.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.11_my-equal.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.12.1_sommatie_lijsten_rec.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/Taken/Taak 1/driehoek.scm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +201,10 @@
       <workItem from="1697776992029" duration="188000" />
       <workItem from="1697778597455" duration="497000" />
       <workItem from="1697787664683" duration="212000" />
-      <workItem from="1697787883140" duration="5769000" />
+      <workItem from="1697787883140" duration="5832000" />
+      <workItem from="1697801775931" duration="927000" />
+      <workItem from="1697802879360" duration="90000" />
+      <workItem from="1697885224032" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -255,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697273959037</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="oefening scheme">
+      <option name="closed" value="true" />
+      <created>1697797621497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697797621497</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
