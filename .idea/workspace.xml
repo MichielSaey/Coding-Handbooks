@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.12.2_sommatie_lijsten_ite.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.15.1_samenvoegen_lijsten.scm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.12.1_sommatie_lijsten_rec.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.12.1_sommatie_lijsten_rec.scm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
