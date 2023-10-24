@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="uppdate README.md">
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/ 4.7.2_staartrecursie.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.10.1_filtered-accumulate.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.7.1_constructieve_recursie.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.7.3_factorial.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.9.1_accumulate.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.9.2_product_en_sum.scm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.9.3_add_en_multiply.scm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -205,6 +213,8 @@
       <workItem from="1697801775931" duration="927000" />
       <workItem from="1697802879360" duration="90000" />
       <workItem from="1697885224032" duration="76000" />
+      <workItem from="1697885308436" duration="87000" />
+      <workItem from="1698147142755" duration="6339000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -261,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697797621497</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="uppdate README.md">
+      <option name="closed" value="true" />
+      <created>1697885370159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697885370159</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +304,8 @@
     <MESSAGE value="kotlin libraries" />
     <MESSAGE value="idea settings" />
     <MESSAGE value="oefening scheme" />
-    <option name="LAST_COMMIT_MESSAGE" value="oefening scheme" />
+    <MESSAGE value="uppdate README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="uppdate README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
