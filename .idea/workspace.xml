@@ -4,77 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="kotlin libraries">
-      <change afterPath="$PROJECT_DIR$/Practice/.ipynb_checkpoints/Threading-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Kotlin/Kotlin Notebook.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Kotlin/Microstreams.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/CProfile.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/CSV.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Collections.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Glob.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Jira.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Logging.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Openpyxl.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Pprint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices/01_pytorch_workflow_ex.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices/02_pytorch_classification_ex.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices/models/01_pytorch_workflow_EX_model_1.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/00_pytorch_fundamentals.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/01_pytorch_workflow.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/02_pytorch_classification.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/helper_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/models/01_pytorch_workflow_model_0.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/models/01_pytorch_workflow_model_1.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/SQLAlchemy.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/SQLModel.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Sqlite3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Thread.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Threading.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Time.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Timeit.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Unittest.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/pyclickup.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/1.3.1_fourth.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/1.3.2_sum-3-squares.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/1.3.3_celsius_naar_fahrenheit.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/1.8.1_discount.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Handbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Handbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cheatsheets/Code to remeber.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Cheatsheets/Python code to remeber.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/.ipynb_checkpoints/Threading-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Buildings_Database.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Kotlin/Kotlin Notebook.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Kotlin/Microstreams.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/PyTorch/Exercices/02_pytorch_classification_ex.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/CProfile.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/CSV.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Collections.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Glob.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Jira.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Logging.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Openpyxl.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Pprint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Exercices/01_pytorch_workflow_ex.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Exercices/models/01_pytorch_workflow_EX_model_1.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/00_pytorch_fundamentals.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/01_pytorch_workflow.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/02_pytorch_classification.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/helper_functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/models/01_pytorch_workflow_model_0.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/PyTorch/Theory/models/01_pytorch_workflow_model_1.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/SQLAlchemy.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/SQLModel.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Sqlite3.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Thread.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Threading.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Time.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Timeit.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/Unittest.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/Python/pyclickup.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/SQLAlchemy.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/alchemy.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduls &amp; Libraries/users.db" beforeDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefeninge reeks 4 afgewerkt">
+      <change afterPath="$PROJECT_DIR$/Practice/Scheme/6 Data-abstractie/6.1.1_punt.scm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +18,7 @@
         <option value="Dockerfile" />
         <option value="Kotlin Jupyter Notebook" />
         <option value="Kotlin Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -143,9 +75,12 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/michiel/Code/Python_handbooks&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/michi/DataspellProjects/Python_handbooks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -165,9 +100,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\3 Processen Recursie versus Iteratie" />
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\2 Procedures, condities en blokstructuren" />
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\1 Expressies en Procedures" />
       <recent name="$PROJECT_DIR$/Practice/Python" />
       <recent name="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices" />
-      <recent name="$PROJECT_DIR$/Docker/Data" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.Docker.db: Compose Deployment">
@@ -225,14 +162,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Docker.Docker: Compose Deployment" />
-        <item itemvalue="Docker.Docker.db: Compose Deployment" />
-        <item itemvalue="Docker.Docker.dynamodb: Compose Deployment" />
-        <item itemvalue="Docker.Docker/Dockerfile" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -259,6 +188,23 @@
       <workItem from="1694363763583" duration="12000" />
       <workItem from="1695982066646" duration="410000" />
       <workItem from="1695984401311" duration="2933000" />
+      <workItem from="1697015767525" duration="30000" />
+      <workItem from="1697015806969" duration="555000" />
+      <workItem from="1697016402524" duration="9000" />
+      <workItem from="1697016424468" duration="40000" />
+      <workItem from="1697186512186" duration="1095000" />
+      <workItem from="1697192189154" duration="9324000" />
+      <workItem from="1697275894143" duration="1000" />
+      <workItem from="1697373596231" duration="386000" />
+      <workItem from="1697374025043" duration="634000" />
+      <workItem from="1697374698422" duration="110000" />
+      <workItem from="1697776992029" duration="188000" />
+      <workItem from="1697778597455" duration="497000" />
+      <workItem from="1697787664683" duration="212000" />
+      <workItem from="1697787883140" duration="5832000" />
+      <workItem from="1697801775931" duration="927000" />
+      <workItem from="1697802879360" duration="90000" />
+      <workItem from="1697885224032" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -284,11 +230,54 @@
       <option name="project" value="LOCAL" />
       <updated>1695982107497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="oefening scheme">
+      <option name="closed" value="true" />
+      <created>1697058190966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697058190966</updated>
+    </task>
+    <task id="LOCAL-00005" summary="oefening scheme">
+      <option name="closed" value="true" />
+      <created>1697108804731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697108804731</updated>
+    </task>
+    <task id="LOCAL-00006" summary="oefening scheme">
+      <created>1697273959037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697273959037</updated>
+    </task>
+    <task id="LOCAL-00007" summary="oefening scheme">
+      <option name="closed" value="true" />
+      <created>1697797621497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697797621497</updated>
+    </task>
+    <task id="LOCAL-00008" summary="oefeninge reeks 4 afgewerkt">
+      <option name="closed" value="true" />
+      <created>1698173809612</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698173809612</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -303,7 +292,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kotlin libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="kotlin libraries" />
+    <MESSAGE value="idea settings" />
+    <MESSAGE value="oefening scheme" />
+    <MESSAGE value="oefeninge reeks 4 afgewerkt" />
+    <option name="LAST_COMMIT_MESSAGE" value="oefeninge reeks 4 afgewerkt" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
