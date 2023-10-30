@@ -17,6 +17,8 @@
 ;> (opbrengst 1000 0.1 20)
 ;1020.1911448605427
 
+(#%require racket/trace)
+
 ;x = startbedrag
 ;c = intrest per jaar
 ;n = intrest over n aantal jaar
@@ -28,5 +30,34 @@
   )
 
 ;Test
+(trace opbrengst)
+
 (opbrengst 100 3 4)
 (opbrengst 1000 0.1 20)
+
+;b)Levert je oplossing een recursief of een iteratief proces op? Leg uit waarom je dit antwoord geeft. Schrijf
+;dan ook de andere versie.
+
+;De hierboven beschreven oplossing is een iteratief poces. Er per stap van de herhaling een tussen resultaat
+;word berekend voor die stap, voordat deze stap van de recursie word afgesloten.
+
+;Hier zal ik het recursieve versie neer schrijven
+
+(define (opbrengst-rec x c n)
+  (if (zero? n)
+    x
+    (* (opbrengst-rec x c (- n 1)) (+ 1.0 (/ c 100)))
+    )
+  )
+
+;Test
+;(trace opbrengst-rec)
+
+(opbrengst-rec 100 3 4)
+(opbrengst-rec 1000 0.1 20)
+
+
+
+
+
+

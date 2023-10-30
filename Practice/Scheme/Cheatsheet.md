@@ -333,6 +333,7 @@ The `let` expression is used to create local variables. It is similar to `define
 ```
 
 These are all functions that can be used to manipulate lists:
+* [append](#append)
 * [car](#car)
 * [cadr](#cadr)
 * [cdr](#cdr)
