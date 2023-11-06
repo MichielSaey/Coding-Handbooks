@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_06_11_2023_16_18_[Changes]" date="1699283887125" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_16_18_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 06/11/2023 16:18 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Moduls &amp; Libraries/alchemy.db" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Moduls &amp; Libraries/users.db" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Moduls &amp; Libraries/Buildings_Database.sqlite" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
