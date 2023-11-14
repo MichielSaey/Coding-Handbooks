@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
-      <change afterPath="$PROJECT_DIR$/Cheatsheets/Jupyter code to remeber.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Jupyter Notebooks/Jupyter Widgets.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Handbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Handbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jupyter-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cheatsheets/Python code to remeber.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Cheatsheets/Python code to remeber.ipynb" afterDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Pandas.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +296,8 @@
     <MESSAGE value="kotlin libraries" />
     <MESSAGE value="idea settings" />
     <MESSAGE value="oefening scheme" />
-    <option name="LAST_COMMIT_MESSAGE" value="oefening scheme" />
+    <MESSAGE value="Aanpassingen jupyter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aanpassingen jupyter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
