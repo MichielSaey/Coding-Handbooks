@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/6 Data-abstractie/6.1.2_lijnstuk.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/6 Data-abstractie/6.1.3_middelpunt.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/6 Data-abstractie/6.1.1_punt.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/6 Data-abstractie/6.1.1_punt.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" afterDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Pandas.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +107,19 @@
       <recent name="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Docker.db: Compose Deployment">
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -152,18 +159,6 @@
           </option>
           <option name="sourceFilePath" value="Docker/docker-compose.yml" />
         </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings />
       </deployment>
       <method v="2" />
     </configuration>
@@ -212,7 +207,6 @@
       <workItem from="1697885224032" duration="76000" />
       <workItem from="1698505774337" duration="264000" />
       <workItem from="1698506063269" duration="723000" />
-      <workItem from="1699624094847" duration="11985000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -302,7 +296,8 @@
     <MESSAGE value="kotlin libraries" />
     <MESSAGE value="idea settings" />
     <MESSAGE value="oefening scheme" />
-    <option name="LAST_COMMIT_MESSAGE" value="oefening scheme" />
+    <MESSAGE value="Aanpassingen jupyter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aanpassingen jupyter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
