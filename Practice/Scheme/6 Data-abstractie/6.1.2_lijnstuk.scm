@@ -1,19 +1,5 @@
-;Definieer een data-structuur om een (2-dimensionaal) punt voor te stellen. Schrijf hiertoe een constructor
-;(make-punt x y) en de selectoren (x punt) en (y punt).
-
-;> (define a (make-punt 2 11))
-;> a
-;(2 . 11)
-
-;> (x a)
-;2
-
-;> (y a)
-;11
-
-;Definieer een data-structuur om een lijnstuk voor te stellen d.m.v. het start- en eindpunt van het lijnstuk.
-;Schrijf hiertoe een constructor (make-segment start einde) en de selectoren (start-punt segment) en (end-punt
-;segment).
+;Gebruik de operaties van dit ADT om een procedure (middelpunt segment) te schrijven die het middelpunt van een
+;lijnstuk teruggeeft.
 
 ;Segment
 (define (make-segment start einde)
