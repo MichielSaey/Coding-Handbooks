@@ -3,6 +3,13 @@
   <component name="JupyterPersistentConnectionParameters">
     <option name="moduleParameters">
       <map>
+        <entry key="$USER_HOME$/OneDrive/Dataspell/SVK/.idea/SVK.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/OneDrive/Files/Code/Python/Coding Handbooks/.idea/Handbook.iml">
           <value>
             <JupyterConnectionParameters>
