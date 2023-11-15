@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Practice/Python/Pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Pandas.ipynb" afterDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="toevoeging pandas csv">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +297,8 @@
     <MESSAGE value="idea settings" />
     <MESSAGE value="oefening scheme" />
     <MESSAGE value="Aanpassingen jupyter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aanpassingen jupyter" />
+    <MESSAGE value="toevoeging pandas csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="toevoeging pandas csv" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
