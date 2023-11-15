@@ -319,6 +319,83 @@ The `let` expression is used to create local variables. It is similar to `define
     (display "\n"))
 ```
 
+The let expresion is syntactic sugar for a lambda expression. The following two expressions are equivalent.
+
+```scheme
+> (define (test a b)
+  (let ((a 5)
+        (c (+ a 2)))
+    (display a)
+    (display b)
+    (display c)))
+
+(test 1 2)
+; 523
+
+> (define (test a  b)
+  ((lambda (a c)
+     (display a)
+     (display b)
+     (display c))
+    5 (+ a 2)))
+
+(test 5 7)
+; 523
+```
+## let*
+
+The `let*` expression is similar to `let` except that the variables are defined sequentially. This means that the variables can reference each other. This is useful when you need to define a variable that depends on another variable.
+
+```scheme
+> (let* ((x 10)
+         (y (+ x 2)))
+    (+ x y))
+
+22
+```
+
+Where `let` is syntactic sugar for a lambda expression, `let*` is syntactic sugar for nested lambda expressions. The following two expressions are equivalent.
+
+```scheme
+> (define (test a b)
+  (let* ((a 5)
+         (c (+ a 2)))
+    (display a)
+    (display b)
+    (display c)))
+
+(test 1 2)
+; 527
+
+> (define (test a  b)
+  ((lambda (a)
+     ((lambda (c)
+        (display a)
+        (display b)
+        (display c))
+      (+ a 2)))
+    5))
+
+(test 1 2)
+; 527
+```
+
+## letrec
+
+The `letrec` expression is used to create recursive functions using lambda expressions.
+
+
+```scheme
+> (define (test n) 
+    (letrec ((fact (lambda (n)
+                     (if (= n 0)
+                         1
+                         (* n (fact (- n 1)))))))
+    (fact 5)))
+
+> (test 5)
+120
+```
 
 ## list
 
@@ -353,6 +430,14 @@ applied to
 > ; (abs x) - the absolute value of x
 > (map abs '(-1 2 -3 4 5 -6))
 '(1 2 3 4 5 6)
+```
+
+## mcons
+
+The `mcons` function is used to create mutable lists. Mutable lists are lists that can be modified after they are created. This is useful when you need to create a list that will be modified later. 
+
+```scheme
+(mcons element list)
 ```
 
 ## modulo
