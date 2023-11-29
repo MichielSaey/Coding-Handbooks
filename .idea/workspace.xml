@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="kotlin libraries">
-      <change afterPath="$PROJECT_DIR$/Practice/Python/Mathplotlib.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Python/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/Voorbeeld tentame/oefening 2.scm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Scheme/Voorbeeld tentame/oefening 3.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="toevoeging pandas csv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Voorbeeld tentame/oefening 1.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Voorbeeld tentame/oefening 1.scm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +19,6 @@
         <option value="Kotlin Jupyter Notebook" />
         <option value="Kotlin Script" />
         <option value="Jupyter Notebook" />
-        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -42,8 +34,8 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="606fb0da-76ec-4931-b8c9-6b712495f4d4" />
-        <option name="url" value="https://github.com/MichielSaey/Coding-Handbooks.git" />
+        <option name="accountId" value="8c01a042-b9e7-4256-8eaa-c5da716622c0" />
+        <option name="url" value="https://github.com/MichielSaey/Python_handbooks.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -97,7 +89,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -115,27 +107,17 @@
       <recent name="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Handbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice/Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/Python/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="Docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -180,23 +162,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -240,11 +205,8 @@
       <workItem from="1697801775931" duration="927000" />
       <workItem from="1697802879360" duration="90000" />
       <workItem from="1697885224032" duration="76000" />
-      <workItem from="1698587224261" duration="1104000" />
-      <workItem from="1698588333300" duration="364000" />
-      <workItem from="1698596373057" duration="146000" />
-      <workItem from="1698596529105" duration="692000" />
-      <workItem from="1698610238356" duration="1494000" />
+      <workItem from="1698505774337" duration="264000" />
+      <workItem from="1698506063269" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -301,13 +263,13 @@
       <option name="project" value="LOCAL" />
       <updated>1697797621497</updated>
     </task>
-    <task id="LOCAL-00008" summary="oefeninge reeks 4 afgewerkt">
+    <task id="LOCAL-00008" summary="oefening scheme">
       <option name="closed" value="true" />
-      <created>1698173809612</created>
+      <created>1697985275041</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1698173809612</updated>
+      <updated>1697985275042</updated>
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
@@ -334,25 +296,12 @@
     <MESSAGE value="kotlin libraries" />
     <MESSAGE value="idea settings" />
     <MESSAGE value="oefening scheme" />
-    <MESSAGE value="oefeninge reeks 4 afgewerkt" />
-    <option name="LAST_COMMIT_MESSAGE" value="oefeninge reeks 4 afgewerkt" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practice/Python/test.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Aanpassingen jupyter" />
+    <MESSAGE value="toevoeging pandas csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="toevoeging pandas csv" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Coding_Handbooks$test.coverage" NAME="test Coverage Results" MODIFIED="1698611210034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Python" />
   </component>
 </project>
