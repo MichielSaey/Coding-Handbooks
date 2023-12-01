@@ -303,23 +303,33 @@ functions like map, filter, and reduce
 
 ## let
 
-The `let` expression is used to create local variables. It is similar to `define` except that the variable is only accessible within the `let` expression.
+The `let` expression is used to create local variables. It is similar to `define` except that the variable is only accessible within the `let` expression. The let expresion is syntactic sugar for a lambda expression. The following two expressions are equivalent.
 
 ```scheme
 > (let ((x 10)
         (y 20))
     (+ x y))
 
-30
-
-;Here let is used to store the result of a (quotient 13 4) in a variable named result
+> 30
 
 > (let ((result (quotient 13 4)))
     (display result)
     (display "\n"))
 ```
 
-The let expresion is syntactic sugar for a lambda expression. The following two expressions are equivalent.
+a `Let` can aslo me named, so it can be reused with diffrent expresions. This can comenlly be used to write more elegant iterating function. 
+
+```scheme
+(define (fac n)
+  (let fac-loop
+    ((result 1)
+      (factor n))
+    (if (= factor 0)
+      result
+      (fac-loop (* result factor) (- factor 1)))))
+```
+
+
 
 ```scheme
 > (define (test a b)
@@ -490,6 +500,67 @@ It cannot be used as a function with functions like [map](#map), [filter](#filte
 (quotient -13 -4) ;3
 ```
 
+## vector or make-vector
+
+`make-vector` can be used two ways. The first way is to create a vector of a certain size. The second way is to create a vector filled with certain values.
+
+```scheme
+(make-vector 10)
+#(0 0 0 0 0 0 0 0 0 0)
+
+(make-vector 10 1)
+#(1 1 1 1 1 1 1 1 1 1)
+```
+
+a vector can also be created using the `vector` function. This function takes any number of arguments and returns a vector containing those arguments.
+
+Vectors in scheme are immutable. This means that once they are created, they cannot be modified. They are also destructivy, this means that every time a vector is modified, a new vector is created, and the old one destroyed(beceause they are immultable). This is different from lists, which are mutable and non-destructive. 
+
+```scheme
+(vector 1 2 3 4 5)
+#(1 2 3 4 5)
+
+(vector "apple" "banana" "orange")
+#("apple" "banana" "orange")
+```
+
+## vector-length
+
+`vector-length` returns the length of a vector. In the memory it will save the length of the vector so it can be accessed in O(1) time. VERY FAST!
+
+```scheme
+> (define v0 (vector 1 "twee" 3.0))
+> v0
+#(1 "twee" 3.0)
+> (vector-length v0)
+3
+```
+
+## vector-ref
+
+`vector-ref` returns the value at a certain index in a vector. The given index must be less than the length of the vector, and starts counting at 0, like any other array. And unlike python, negative indexes are not allowed, this will throw an error.
+
+```scheme
+> (define v0 (vector 1 "twee" 3.0))
+> v0
+#(1 "twee" 3.0)
+> (vector-ref v0 1)
+"twee"
+
+```
+
+## vector-set!
+
+`vector-set!` sets the value at a certain index in a vector.
+
+```scheme
+> (define v0 (vector 1 "twee" 3.0))
+> v0
+#(1 "twee" 3.0)
+> (vector-set! v0 1 "two")
+> v0
+#(1 "two" 3.0)
+```
 ## Comparison Functions
 
 **Note**: Regular comparison functions only work on numbers (integers and floats).
@@ -505,6 +576,15 @@ It cannot be used as a function with functions like [map](#map), [filter](#filte
 ### equal?
 
 See [equal?](#equal_function)
+
+
+## Type checking functions
+
+* vector?
+* list?
+* number?
+* pair?
+* string?
 
 # Functions We Will Define <a name="user-defined"/>
 
