@@ -4,65 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="kotlin libraries">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_16_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_16_18__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefeningin vectoren">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_16_18__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cheatsheets/Jupyter code to remeber.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Jupyter Notebooks/Jupyter code to remeber.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cheatsheets/Python code to remeber.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Python code to remeber.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cheatsheets/bibliography.bib" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Markdown/bibliography.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cheatsheets/marksdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Markdown/marksdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/1 Expressies en Procedures/1.3.1_fourth.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/1 Expressies en Procedures/1.3.1_fourth.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/1 Expressies en Procedures/1.3.2_sum-3-squares.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/1 Expressies en Procedures/1.3.2_sum-3-squares.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/1 Expressies en Procedures/1.3.3_celsius_naar_fahrenheit.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/1 Expressies en Procedures/1.3.3_celsius_naar_fahrenheit.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/1 Expressies en Procedures/1.8.1_discount.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/1 Expressies en Procedures/1.8.1_discount.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.1.1_sign.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/2 Procedures, condities en blokstructuren/2.1.1_sign.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.1.2_leap-year.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/2 Procedures, condities en blokstructuren/2.1.2_leap-year.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.3.1_my-and.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/2 Procedures, condities en blokstructuren/2.3.1_my-and.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.3.3_my-or.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/2 Procedures, condities en blokstructuren/2.3.3_my-or.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/2 Procedures, condities en blokstructuren/2.3.4_my-if.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/2 Procedures, condities en blokstructuren/2.3.4_my-if.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.1.1_recursief.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.1.1_recursief.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.1.2_iteratief.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.1.2_iteratief.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.2.1_fast_multiply.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.2.1_fast_multiply.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.2_multiply.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.2_multiply.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.3.1_het_getal_e.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.3.1_het_getal_e.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.5_mutuele_recursie.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.5_mutuele_recursie.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.6.1_implementeer.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.6.1_implementeer.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.6.2_bereken_de_recursie_diepte.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.6.2_bereken_de_recursie_diepte.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.7.2_binaire_vormen.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.7.2_binaire_vormen.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.9.1_display-n.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.9.1_display-n.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/3 Processen Recursie versus Iteratie/3.9.2_parasol.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/3 Processen Recursie versus Iteratie/3.9.2_parasol.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/ 4.7.2_staartrecursie.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/4 Hogere Orde Procedures/ 4.7.2_staartrecursie.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.10.1_filtered-accumulate.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/4 Hogere Orde Procedures/4.10.1_filtered-accumulate.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.10.2_grootste_gemene_deler.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/4 Hogere Orde Procedures/4.10.2_grootste_gemene_deler.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.7.1_constructieve_recursie.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/4 Hogere Orde Procedures/4.7.1_constructieve_recursie.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.7.3_factorial.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/4 Hogere Orde Procedures/4.7.3_factorial.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.9.1_accumulate.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/4 Hogere Orde Procedures/4.9.1_accumulate.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.9.2_product_en_sum.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/4 Hogere Orde Procedures/4.9.2_product_en_sum.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/4 Hogere Orde Procedures/4.9.3_add_en_multiply.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/4 Hogere Orde Procedures/4.9.3_add_en_multiply.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.10.1_change.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.10.1_change.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.10.2_change_dmv_map.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.10.2_change_dmv_map.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.11_my-equal.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.11_my-equal.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.12.1_sommatie_lijsten_rec.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.12.1_sommatie_lijsten_rec.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.12.2_sommatie_lijsten_ite.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.12.2_sommatie_lijsten_ite.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.15.1_samenvoegen_lijsten.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.15.1_samenvoegen_lijsten.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.15.2_samenvoegen_willekeurig_aantal_lijsten.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.15.2_samenvoegen_willekeurig_aantal_lijsten.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.6_element_toevoegen_achteraan_een_lijst.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.6_element_toevoegen_achteraan_een_lijst.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.7_append.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.7_append.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.8_lijsten_reversen.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.8_lijsten_reversen.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/5 Lijsten/5.9_laatste_element_van_lijst.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/5 Lijsten/5.9_laatste_element_van_lijst.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/6 Data-abstractie/6.1.1_punt.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/6 Data-abstractie/6.1.1_punt.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/6 Data-abstractie/6.1.2_lijnstuk.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/6 Data-abstractie/6.1.2_lijnstuk.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/6 Data-abstractie/6.1.3_middelpunt.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/6 Data-abstractie/6.1.3_middelpunt.scm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Taken/Taak 1/binomiaal.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/Taken/Taak 1/binomiaal.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Taken/Taak 1/driehoek.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/Taken/Taak 1/driehoek.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Taken/Taak 1/golomb_getallen.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/Taken/Taak 1/golomb_getallen.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Taken/Taak 1/golomb_reeks.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/Taken/Taak 1/golomb_reeks.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Voorbeeld tentame/oefening 1.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/Voorbeeld tentame/oefening 1.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Voorbeeld tentame/oefening 2.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/Voorbeeld tentame/oefening 2.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Voorbeeld tentame/oefening 3.scm" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Structuur van computerprogramma's 1/Voorbeeld tentame/oefening 3.scm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,37 +70,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/michi/DataspellProjects/Python_handbooks&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/michi/DataspellProjects/Python_handbooks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\Structuur van computerprogramma's 1" />
@@ -293,6 +238,7 @@
       <workItem from="1698792148889" duration="322000" />
       <workItem from="1699001776657" duration="63000" />
       <workItem from="1701267985904" duration="3285000" />
+      <workItem from="1701424313099" duration="4653000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -365,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698792290376</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="oefeningin vectoren">
+      <option name="closed" value="true" />
+      <created>1701424336787</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701424336787</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +348,8 @@
     <MESSAGE value="oefening scheme" />
     <MESSAGE value="oefeninge reeks 4 afgewerkt" />
     <MESSAGE value="kotlin libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="kotlin libraries" />
+    <MESSAGE value="oefeningin vectoren" />
+    <option name="LAST_COMMIT_MESSAGE" value="oefeningin vectoren" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

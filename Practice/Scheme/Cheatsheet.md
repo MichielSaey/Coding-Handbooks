@@ -46,6 +46,39 @@ TODO: These are not yet implemented in the sheet but are mentioned in the index:
 - [reverse](#reverse)
 - [Comparsion Functions (=, >, <, >=, <=)](#comparison)
 
+## ADT
+
+ADT stands for Abstract Data Type. It is a data structure that is defined by its behavior. Is is similar to a class in object oriented programming. Lets sat we want to define a person. In the folowing example we use `define-library` to define a library, this is syntax added with the R7RS standaed, and allows you to define a library with multiple functions.
+
+In the first part of the `degine-library` we define the functions that we want to export, these are the functions externally available for use. This is the interface of the library. In the second part we define the functions that we want to import, this is usually the scheme libraries, but it can be any other library you wish.
+
+After that we place a `(begin ...)` statement, this allows us to define multiple functions in the same library.
+
+Here a `define-record-type` is used. This is a macro that allows us to define a new data type. The first argument is the name of the type, the second is the constructor, the third is the predicate, and the rest are the fields.
+
+The constructor is a function that takes the fields as arguments and returns a new instance of the type. The predicate is a function that takes an instance of the type and returns true if it is an instance of the type, and false otherwise. The fields are the fields of the type, and the last part is the mutator functions. These are functions that take an instance of the type and a new value for the field, and return a new instance of the type with the field changed.
+
+```scheme
+(define-library (person)
+  (export new person? name surname age age! salary salary!)
+  (import (scheme base))
+  (begin
+    
+    (define-record-type person
+      (new n sn a s)
+      person?
+      (n name)
+      (sn surname)
+      (a age age!)
+      (s salary salary!))))
+```
+Using the code above a total of 8 fucntions: constructor, predicate, mutators, or setter, and selectors, or getters, are created. The constructor is called `new`, the predicate is called `person?`, the setters are called `age!` and `salary!`, and the selectors are called `name`, `surname`, `age`, and `salary`. Below we can see how to use these functions.
+
+```scheme
+(define fred (person "Michiel" "Saey" 25 1700))
+(display fred)
+```
+
 ## and
 `and` takes a variable number of arguments and returns whether all of them are true.
 
