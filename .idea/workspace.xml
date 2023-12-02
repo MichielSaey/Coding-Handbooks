@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefeningin vectoren">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_16_18__Changes_.xml" beforeDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
+      <change afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Theory/Algoritmes/Knuth–Morris–Pratt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Handbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Handbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Scheme/Cheatsheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Mathplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Mathplotlib.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +42,8 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="606fb0da-76ec-4931-b8c9-6b712495f4d4" />
-        <option name="url" value="https://github.com/MichielSaey/Coding-Handbooks.git" />
+        <option name="accountId" value="8c01a042-b9e7-4256-8eaa-c5da716622c0" />
+        <option name="url" value="https://github.com/MichielSaey/Python_handbooks.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -63,7 +68,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2UIeUIp4PGABwEdvFO7RujdDDyT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -83,7 +88,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/michi/DataspellProjects/Python_handbooks",
+    "last_opened_file_path": "C:/Users/michi/DataspellProjects/Python_handbooks/Theory/Algoritmes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,7 +97,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -102,37 +107,18 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\michi\DataspellProjects\Python_handbooks\Theory\Algoritmes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\Structuur van computerprogramma's 1" />
-      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Jupyter Notebooks" />
-      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Markdown" />
-      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Python" />
-      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice" />
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\3 Processen Recursie versus Iteratie" />
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\2 Procedures, condities en blokstructuren" />
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\1 Expressies en Procedures" />
+      <recent name="$PROJECT_DIR$/Practice/Python" />
+      <recent name="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Docker.db: Compose Deployment">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Handbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice/Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/Python/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -230,15 +216,11 @@
       <workItem from="1697801775931" duration="927000" />
       <workItem from="1697802879360" duration="90000" />
       <workItem from="1697885224032" duration="76000" />
-      <workItem from="1698587224261" duration="1104000" />
-      <workItem from="1698588333300" duration="364000" />
-      <workItem from="1698596373057" duration="146000" />
-      <workItem from="1698596529105" duration="692000" />
-      <workItem from="1698610238356" duration="1494000" />
-      <workItem from="1698792148889" duration="322000" />
-      <workItem from="1699001776657" duration="63000" />
-      <workItem from="1701267985904" duration="3285000" />
-      <workItem from="1701424313099" duration="4653000" />
+      <workItem from="1698505774337" duration="264000" />
+      <workItem from="1698506063269" duration="723000" />
+      <workItem from="1700597717881" duration="138000" />
+      <workItem from="1701514097396" duration="265000" />
+      <workItem from="1701514413075" duration="17777000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -295,31 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697797621497</updated>
     </task>
-    <task id="LOCAL-00008" summary="oefeninge reeks 4 afgewerkt">
+    <task id="LOCAL-00008" summary="oefening scheme">
       <option name="closed" value="true" />
-      <created>1698173809612</created>
+      <created>1697985275041</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1698173809612</updated>
+      <updated>1697985275042</updated>
     </task>
-    <task id="LOCAL-00009" summary="kotlin libraries">
-      <option name="closed" value="true" />
-      <created>1698792290376</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1698792290376</updated>
-    </task>
-    <task id="LOCAL-00010" summary="oefeningin vectoren">
-      <option name="closed" value="true" />
-      <created>1701424336787</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1701424336787</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,18 +307,28 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/Practice/MySTmd" />
-    </ignored-roots>
+    <MESSAGE value="kotlin libraries" />
     <MESSAGE value="idea settings" />
     <MESSAGE value="oefening scheme" />
-    <MESSAGE value="oefeninge reeks 4 afgewerkt" />
-    <MESSAGE value="kotlin libraries" />
-    <MESSAGE value="oefeningin vectoren" />
-    <option name="LAST_COMMIT_MESSAGE" value="oefeningin vectoren" />
+    <MESSAGE value="Aanpassingen jupyter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aanpassingen jupyter" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701539113814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023" />
   </component>
 </project>
