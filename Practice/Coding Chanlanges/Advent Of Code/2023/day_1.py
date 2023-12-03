@@ -36,6 +36,15 @@ def calibrate_trebuchet():
 # Part 2
 
 # Dictonaire of all searched chars
+# Make it usable like a string
+# function to add
+# * equels
+# * len
+# * return match as int
+class Dictonary:
+    def __init__(self):
+
+
 # Alternative on KMP
 
 def computeSigmaTable(line: str):
@@ -62,6 +71,7 @@ def computeSigmaTable(line: str):
 
 def KMPSearch(line: str, word: str):
     # output
+    # Do this like part one, add firt and next than add
     match_position = [0]
     match_count = 0
 

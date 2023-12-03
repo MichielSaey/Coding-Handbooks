@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="oefening scheme">
-      <change afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Theory/Algoritmes/Knuth–Morris–Pratt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Handbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Handbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="advent of code day 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python/Mathplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Mathplotlib.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +214,7 @@
       <workItem from="1698506063269" duration="723000" />
       <workItem from="1700597717881" duration="138000" />
       <workItem from="1701514097396" duration="265000" />
-      <workItem from="1701514413075" duration="17777000" />
+      <workItem from="1701514413075" duration="24637000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -285,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697985275042</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="advent of code day 1">
+      <option name="closed" value="true" />
+      <created>1701541165525</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701541165525</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,24 +313,14 @@
     <MESSAGE value="idea settings" />
     <MESSAGE value="oefening scheme" />
     <MESSAGE value="Aanpassingen jupyter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aanpassingen jupyter" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="advent of code day 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="advent of code day 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701539113814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023" />
+    <SUITE FILE_PATH="coverage/Python_handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701540486904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023" />
   </component>
 </project>
