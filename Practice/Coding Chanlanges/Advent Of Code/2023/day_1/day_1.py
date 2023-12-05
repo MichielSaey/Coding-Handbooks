@@ -1,6 +1,6 @@
 from builtins import len
 
-file = open(file="day_1.txt")
+file = open(file="input.txt")
 
 
 # 1. Take each line
