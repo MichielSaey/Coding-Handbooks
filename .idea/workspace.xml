@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="soved day 1" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="advent of code day 1 hcnage + added scheme version of kmp">
+      <change afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2/day_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2/day_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Handbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Handbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +66,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2UIeUIp4PGABwEdvFO7RujdDDyT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -88,7 +95,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -102,7 +109,7 @@
       <recent name="C:\Users\michi\DataspellProjects\Python_handbooks\Theory\Algoritmes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Coding Chanlanges\Advent Of Code\2023\day_1" />
+      <recent name="C:\Users\michi\DataspellProjects\Python_handbooks\Theory\Algoritmes\Knuth-Morris-Pratt" />
       <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\3 Processen Recursie versus Iteratie" />
       <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\2 Procedures, condities en blokstructuren" />
       <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\1 Expressies en Procedures" />
@@ -164,6 +171,14 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker.dynamodb: Compose Deployment" />
+        <item itemvalue="Docker.Docker.db: Compose Deployment" />
+        <item itemvalue="Docker.Docker/Dockerfile" />
+        <item itemvalue="Docker.Docker: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -211,10 +226,8 @@
       <workItem from="1698506063269" duration="723000" />
       <workItem from="1700597717881" duration="138000" />
       <workItem from="1701514097396" duration="265000" />
-      <workItem from="1701514413075" duration="24637000" />
-      <workItem from="1701715685336" duration="57000" />
-      <workItem from="1701715751211" duration="114000" />
-      <workItem from="1701715876782" duration="14171000" />
+      <workItem from="1701514413075" duration="25048000" />
+      <workItem from="1701807924794" duration="4353000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -287,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701541165525</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="advent of code day 1 hcnage + added scheme version of kmp">
+      <option name="closed" value="true" />
+      <created>1701635462211</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701635462213</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,15 +335,31 @@
     <MESSAGE value="oefening scheme" />
     <MESSAGE value="Aanpassingen jupyter" />
     <MESSAGE value="advent of code day 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="advent of code day 1" />
+    <MESSAGE value="advent of code day 1 hcnage + added scheme version of kmp" />
+    <option name="LAST_COMMIT_MESSAGE" value="advent of code day 1 hcnage + added scheme version of kmp" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2/day_2.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2/day_2.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Coding_Handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701730703967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1" />
-    <SUITE FILE_PATH="coverage/Python_handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701539113814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023" />
-    <SUITE FILE_PATH="coverage/Coding_Handbooks$day_1_solution.coverage" NAME="day_1_solution Coverage Results" MODIFIED="1701730920433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1" />
+    <SUITE FILE_PATH="coverage/Python_handbooks$day_2.coverage" NAME="day_2 Coverage Results" MODIFIED="1701811996530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2" />
+    <SUITE FILE_PATH="coverage/Python_handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701540486904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023" />
   </component>
 </project>
