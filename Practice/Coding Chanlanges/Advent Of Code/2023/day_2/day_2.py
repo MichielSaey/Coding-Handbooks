@@ -21,19 +21,32 @@ class Set:
     def set_blue(self, blue_amount):
         self.blue = blue_amount
 
+    def set_color_count(self, color, amount):
+        match color:
+            case re.match(r"+red+", color):
+                self.set_red(int(amount))
+            case re.match(r"+green+", color):
+                self.set_green(int(amount))
+            case re.match(r"+blue+", color):
+                self.set_blue(int(amount))
+
 
 class Game:
     def __init__(self, line):
-        line = line.split(" ")
-        self.id = re.findall('\d+', line[1])[0]
+        line_prifex = line.split(":")[0]
+        self.id = line_prifex.split(" ")[1]
         self.sets = []
-        index = 2
-        set = Set()
-        while index < len(line):
-            amount = int(line[index])
-            color = line[index + 1]
+        line_sets = line.split(":")[1]
+        for line_set in line_sets.split(";"):
+            set = Set()
+            for game_line in line_set.split(","):
+                game_line = game_line.strip()
+                color = game_line.split(" ")[1]
+                amount = game_line.split(" ")[0]
+                set.set_color_count(color, amount)
+            print(set)
 
-            match color
+
 
 
 if __name__ == '__main__':
