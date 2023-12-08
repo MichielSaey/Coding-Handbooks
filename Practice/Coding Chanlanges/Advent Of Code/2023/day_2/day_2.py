@@ -1,6 +1,3 @@
-import re
-
-
 def read_lines(filename):
     with open(file=filename) as file:
         for line in file.read().splitlines():
@@ -42,6 +39,7 @@ class Set:
             return False
         return True
 
+
 class Game:
     def __init__(self, line):
         line_prefix = line.split(":")[0]
@@ -73,6 +71,21 @@ class Game:
             index += 1
         return validation
 
+    def calculate_power(self):
+        largest_set = self.get_largest_possible_set()
+        return largest_set.blue * largest_set.red * largest_set.green
+
+    def get_largest_possible_set(self):
+        largest_set = Set()
+        for set in self.sets:
+            if set.blue > largest_set.blue:
+                largest_set.set_blue(set.blue)
+            if set.red > largest_set.red:
+                largest_set.set_red(set.red)
+            if set.green > largest_set.green:
+                largest_set.set_green(set.green)
+        return largest_set
+
 
 if __name__ == '__main__':
     list_of_games = []
@@ -81,7 +94,6 @@ if __name__ == '__main__':
 
     result = 0
     for game in list_of_games:
-        if game.validate(12, 13, 14):
-            result += int(game.id)
+         result += game.calculate_power()
 
     print(result)
