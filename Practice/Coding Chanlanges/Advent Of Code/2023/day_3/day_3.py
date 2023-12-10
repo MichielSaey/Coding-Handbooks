@@ -24,43 +24,55 @@ class Direction(Enum):
     BACKWARD = 2
     BIDIRECTIONAL = 3
 
+
 def digit_crawler(line: str, start_point: int, direction: Direction = Direction.FORWARD):
     digit = ""
-    is_digit = True
-    while is_digit:
-        if line[start_point].isdigit():
-            digit += line[start_point]
-            start_point = start_point + 1 if direction == Direction.FORWARD else start_point - 1
+    index_in_line = start_point
+    while True:
+        if line[index_in_line].isdigit():
+            digit += line[index_in_line]
+            index_in_line = index_in_line + 1 if direction == Direction.FORWARD else index_in_line - 1
         else:
-            is_digit = False
+            break
 
-    if direction == Direction.BACKWARD:
+    if direction == Direction.BACKWARD and digit != "":
         digit = digit[::-1]
-    if direction == Direction.BIDIRECTIONAL: # and if digit is not zero reverse it, and redo with a forward functionloop
+    elif direction == Direction.BIDIRECTIONAL and digit != "":
+        # and if digit is not zero reverse it, and redo with a forward functionloop
         digit = digit[::-1]
-    return int(digit) if digit.isdigit() else 0
+        # TODO: This function might return a 0 if nothing is found, but also if a zero is found. might need to return to
+        # none return in case of of nothing, and the check it each time...
+        # Or overwrite the standard entity type for None Or create new one with add magic function
+        other_side_result = digit_crawler(line, start_point + 1, direction.FORWARD)
+        if other_side_result != 0:
+            digit += str(other_side_result)
+    return int(digit) if digit.isdigit() else None
 
 
 def sum_of_surrounding_numbers(schematic, symbol):
-    # first get numbers form left and right
-    result = 0
     # Left
-    result += digit_crawler(schematic[symbol[0]], symbol[1] - 1, Direction.BACKWARD)
+    result = digit_crawler(schematic[symbol[0]], symbol[1] - 1, Direction.BACKWARD)
+
+    # Middle top
+    top_middle_result = digit_crawler(schematic[symbol[0] - 1], symbol[1], Direction.BIDIRECTIONAL)
+    if top_middle_result != 0:
+        result += top_middle_result
+    else:
+        result += digit_crawler(schematic[symbol[0] - 1], symbol[-1], Direction.BACKWARD)
+        result += digit_crawler(schematic[symbol[0] - 1], symbol[1], Direction.FORWARD)
 
     # Right
     result += digit_crawler(schematic[symbol[0]], symbol[1] + 1, Direction.FORWARD)
 
-    # Middle top
-    middle_top_result += digit_crawler(schematic[symbol[0] - 1], symbol[1], Direction.BIDIRECTIONAL)
-    # 1. Start in the middle,
-    # 2. if digit do bidirectional
-    # 3. if no run crawler on top left en top right
+    # Middle bottom
+    bottom_middle_result = digit_crawler(schematic[symbol[0] + 1], symbol[1], Direction.BIDIRECTIONAL)
+    if bottom_middle_result  != 0:
+        result += bottom_middle_result
+    else:
+        result += digit_crawler(schematic[symbol[0] + 1], symbol[-1], Direction.BACKWARD)
+        result += digit_crawler(schematic[symbol[0] + 1], symbol[1], Direction.FORWARD)
 
-
-    print(schematic[symbol[0] - 1][symbol[1] - 1], schematic[symbol[0] - 1][symbol[1]], schematic[symbol[0] - 1][symbol[1] + 1])
-    print(schematic[symbol[0]][symbol[1] - 1], schematic[symbol[0]][symbol[1]], schematic[symbol[0]][symbol[1] + 1])
-    print(schematic[symbol[0] + 1][symbol[1] - 1], schematic[symbol[0] + 1][symbol[1]], schematic[symbol[0] + 1][symbol[1] + 1])
-    return result0
+    return result
 
 
 if __name__ == '__main__':
@@ -70,9 +82,12 @@ if __name__ == '__main__':
         if char == '\n':
             schematic.append(line_array)
             line_array = []
-        else:
-            line_array.append(char)
+            continue
+        line_array.append(char)
+    schematic.append(line_array)
 
     result = 0
     for symbol in find_symbols(schematic):
         result += sum_of_surrounding_numbers(schematic, symbol)
+
+    print(result)
