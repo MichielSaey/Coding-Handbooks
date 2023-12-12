@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="day 2 part one">
-      <change afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_4/day_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_4/day_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_4/day_4_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Handbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Handbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="day 4 finished">
+      <change afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5/day_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5/day_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5/day_5_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1/day_1.notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_1/day_1.notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1/day_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_1/day_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1/day_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_1/day_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_1/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2/day_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_2/day_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2/day_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_2/day_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_3/day_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_3/day_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_3/day_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_3/day_3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701899206642</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day 4 finished">
+      <option name="closed" value="true" />
+      <created>1702389486607</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702389486607</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +399,8 @@
     <MESSAGE value="advent of code day 1 hcnage + added scheme version of kmp" />
     <MESSAGE value="day 2" />
     <MESSAGE value="day 2 part one" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2 part one" />
+    <MESSAGE value="day 4 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 4 finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -415,16 +414,6 @@
           <url>file://$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_3/day_3.py</url>
           <line>38</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_4/day_4.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_4/day_4.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -441,11 +430,12 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Coding_Handbooks$day_1_solution.coverage" NAME="day_1_solution Coverage Results" MODIFIED="1701730920433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1" />
     <SUITE FILE_PATH="coverage/Coding_Handbooks$day_2.coverage" NAME="day_2 Coverage Results" MODIFIED="1702048108655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2" />
-    <SUITE FILE_PATH="coverage/Python_handbooks$day_4.coverage" NAME="day_4 Coverage Results" MODIFIED="1702387029647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_4" />
+    <SUITE FILE_PATH="coverage/Python_handbooks$day_4.coverage" NAME="day_4 Coverage Results" MODIFIED="1702389357850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_4" />
     <SUITE FILE_PATH="coverage/Python_handbooks$day_2.coverage" NAME="day_2 Coverage Results" MODIFIED="1701878311346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2" />
     <SUITE FILE_PATH="coverage/Coding_Handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701788247199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1" />
     <SUITE FILE_PATH="coverage/Python_handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701540486904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023" />
     <SUITE FILE_PATH="coverage/Coding_Handbooks$day_3.coverage" NAME="day_3 Coverage Results" MODIFIED="1702052783742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_3" />
     <SUITE FILE_PATH="coverage/Python_handbooks$day_3.coverage" NAME="day_3 Coverage Results" MODIFIED="1702375825558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_3" />
+    <SUITE FILE_PATH="coverage/Python_handbooks$day_5.coverage" NAME="day_5 Coverage Results" MODIFIED="1702398381529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5" />
   </component>
 </project>
