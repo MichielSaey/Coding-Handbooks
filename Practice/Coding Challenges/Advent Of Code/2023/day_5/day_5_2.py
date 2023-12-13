@@ -18,21 +18,28 @@ def read_lines(filename):
             yield line
 
 
+class Seed_node:
+    start_of_range = 0
+    range = 0
+
+    def __init__(self, start_of_range, range):
+        self.start_of_range = start_of_range
+        self.range = range
+
+    # factory that return al list of new nodes
+    # if seed_start <= map_end and map_start <= seed_end pas to factory to create new ranges
+    # e.i check for overlap
+    # then calculate the overlap, create new nodes, then repeat till there is no more overlap
+
 def build_seed_list(line):
     seeds = line.split(" ")[1:]
     seeds_int = [int(s) for s in seeds]
     seeds = seeds_int
 
     results = []
-
-    print(f"starting seeds:", seeds)
-
     index = 0
     while index < len(seeds):
-        for x in range(seeds[index], seeds[index] + seeds[index + 1]):
-            if x not in results:
-                results.append(x)
-        print(results)
+        results.append(Seed_node(seeds[index], seeds[index + 1]))
         index += 2
 
     return results
@@ -77,9 +84,6 @@ if __name__ == '__main__':
     df = pd.DataFrame(data)
     print(df.to_string(), "\n")
 
-    results_df = pd.DataFrame()
-    results_df['Start'] = seeds
-
     for phase in Phase:
         print(f"PHASE: {phase.name}")
         print(f"Seed: {seeds}", "\n")
@@ -87,27 +91,8 @@ if __name__ == '__main__':
         filter_df = df.where(filter_phase)
         filter_df.dropna(inplace=True)
         for seed in seeds:
-            filter_seeds = (df['Source_range_start'] <= seed) & (seed < df['Source_range_end'])
-            seed_filtered_df = filter_df.where(filter_seeds)
+            # repace seeds every phase whit the new ly calculated notes
 
-            seed_filtered_df.dropna(inplace=True)
-            if seed_filtered_df.empty:
-                print(f"No map found for seed: {seed}, so it keeps the same value!", "\n")
-                continue
-
-            print(seed_filtered_df.to_string())
-            seed_modifier = seed - seed_filtered_df.iloc[0]['Source_range_start']
-            seed_modifier = int(seed_modifier)
-            new_value = seed_filtered_df.iloc[0]['Destination_range_start'] + seed_modifier
-            new_value = int(new_value)
-            print(f"Seed {seed} modified by map: {seed_filtered_df.iloc[0]['Source_range_start']} + {seed_modifier} = {new_value}", '\n')
-            seeds[seeds.index(seed)] = new_value
-
-            results_df[phase.name] = seeds
-
-    print("Final state of seeds:", seeds)
-    print(results_df.to_string())
-    print("\n")
 
     # TODO:
     #  Stop using the array of seeds but use the result table
@@ -115,4 +100,3 @@ if __name__ == '__main__':
     #  calculate using ranges, that can split of from each other?
     #  Turn into object with id, start range's and end ranges's after each map.
     #  tree... turn it into a tree
-
