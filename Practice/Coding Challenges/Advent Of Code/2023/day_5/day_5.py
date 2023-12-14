@@ -103,16 +103,10 @@ if __name__ == '__main__':
             print(f"Seed {seed} modified by map: {seed_filtered_df.iloc[0]['Source_range_start']} + {seed_modifier} = {new_value}", '\n')
             seeds[seeds.index(seed)] = new_value
 
-            results_df[phase.name] = seeds
+        results_df[phase.name] = seeds
 
     print("Final state of seeds:", seeds)
     print(results_df.to_string())
     print("\n")
 
-    # TODO:
-    #  Stop using the array of seeds but use the result table
-    #  Id seed by index in table and all the transaction that are made to it
-    #  calculate using ranges, that can split of from each other?
-    #  Turn into object with id, start range's and end ranges's after each map.
-    #  tree... turn it into a tree
 

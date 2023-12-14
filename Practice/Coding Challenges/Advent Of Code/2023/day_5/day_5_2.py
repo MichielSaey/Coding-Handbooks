@@ -18,37 +18,90 @@ def read_lines(filename):
             yield line
 
 
-class Seed_node:
-    start_of_range = 0
-    range = 0
-
-    def __init__(self, start_of_range, range):
-        self.start_of_range = start_of_range
-        self.range = range
-
-    # factory that return al list of new nodes
-    # if seed_start <= map_end and map_start <= seed_end pas to factory to create new ranges
-    # e.i check for overlap
-    # then calculate the overlap, create new nodes, then repeat till there is no more overlap
-
 def build_seed_list(line):
     seeds = line.split(" ")[1:]
-    seeds_int = [int(s) for s in seeds]
-    seeds = seeds_int
 
     results = []
     index = 0
     while index < len(seeds):
-        results.append(Seed_node(seeds[index], seeds[index + 1]))
+        # Tuple (start, range)
+        results.append((int(seeds[index]), int(seeds[index + 1])))
         index += 2
 
     return results
+
+
+def calculate_overlap(seed_start, seed_range, ranges_of_maps):
+    new_seeds = []
+
+    end_of_seed = seed_start + seed_range
+    ranges_of_maps.append((seed_start, seed_range, 0))
+
+    for index, (start, range, modifier) in enumerate(ranges_of_maps):
+        new_start = None
+        new_range = None
+
+        # find new start
+        if start + range > seed_start and seed_start >= start:
+            new_start = seed_start  # Start of new mapped range when the mapped range starts before the seed
+        elif seed_start < start and start + range < seed_start + seed_range:
+            new_start = start  # Start of new mapped range when mapped range starts after seed start
+            new_seeds.append((seed_range, new_start - seed_start))  # Remainder range before
+
+        # find new end
+        if new_start and seed_start + seed_range <= start + range:
+            new_range = (seed_start + seed_range) - new_start
+            seed_start = (seed_start + seed_range)
+            seed_range = 0
+        elif new_start:
+            new_range = (start + range) - new_start
+            seed_start = (start + range)
+            seed_range = end_of_seed - seed_start
+
+        if new_start and new_range:
+            new_seeds.append((new_start + modifier, new_range))
+
+    return new_seeds
+
+
+def map_seeds(df, seeds):
+    data_tracking = pd.DataFrame()
+    print(f"PHASE: Start")
+    print(seeds)
+
+    for phase in Phase:
+        # get phase maps
+        print(f"PHASE: {phase.name}")
+        filter_phase = df['Phase'] == phase.name
+        filter_df = df.where(filter_phase)
+        filter_df.dropna(inplace=True)
+
+        # loop over seeds
+        new_seeds = []
+        for seed_start_of_range, seed_range in seeds:
+            ranges_of_maps = sorted([row for row in
+                                     filter_df[['Source_range_start', 'Range', 'Modifier']].itertuples(index=False,
+                                                                                                       name=None)],
+                                    key=lambda x: x[0])
+
+            new_seeds.extend(calculate_overlap(seed_start_of_range, seed_range, ranges_of_maps))
+
+        seeds = new_seeds
+        print(seeds)
+        print("end of phase")
+
+    print("PHASE: End")
+
+    df = pd.DataFrame(seeds, columns =['Start', 'Range'])
+
+    print(df.to_string())
+
 
 if __name__ == '__main__':
     seeds = []
     data = []
     phase = Phase
-    for line in read_lines("day_5_test.txt"):
+    for line in read_lines("day_5.txt"):
         if "seeds:" in line:
             seeds = build_seed_list(line)
         elif "seed-to-soil map:" in line:
@@ -70,11 +123,13 @@ if __name__ == '__main__':
         else:
             values = line.strip().split(" ")
             destination_range_start, source_range_start, range_length = values
-            destination_range_start, source_range_start, range_length = int(destination_range_start), int(source_range_start), int(range_length)
+            destination_range_start, source_range_start, range_length = int(destination_range_start), int(
+                source_range_start), int(range_length)
             columns = {
                 'Phase': phase.name,
                 'Source_range_start': source_range_start,
                 'Source_range_end': source_range_start + range_length,
+                'Modifier': destination_range_start - source_range_start,
                 'Destination_range_start': destination_range_start,
                 'Destination_range_end': destination_range_start + range_length,
                 'Range': range_length
@@ -83,20 +138,4 @@ if __name__ == '__main__':
 
     df = pd.DataFrame(data)
     print(df.to_string(), "\n")
-
-    for phase in Phase:
-        print(f"PHASE: {phase.name}")
-        print(f"Seed: {seeds}", "\n")
-        filter_phase = df['Phase'] == phase.name
-        filter_df = df.where(filter_phase)
-        filter_df.dropna(inplace=True)
-        for seed in seeds:
-            # repace seeds every phase whit the new ly calculated notes
-
-
-    # TODO:
-    #  Stop using the array of seeds but use the result table
-    #  Id seed by index in table and all the transaction that are made to it
-    #  calculate using ranges, that can split of from each other?
-    #  Turn into object with id, start range's and end ranges's after each map.
-    #  tree... turn it into a tree
+    map_seeds(df, seeds)
