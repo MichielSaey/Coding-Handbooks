@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="day 4 finished">
-      <change afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5/day_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5/day_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5/day_5_test.txt" afterDir="false" />
+    <list default="true" id="7f544e55-2893-4afa-b347-c0376bd2769b" name="Changes" comment="day 5 part two done">
+      <change beforePath="$PROJECT_DIR$/.idea/Handbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Handbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/CProfile.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/CProfile.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/CSV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/CSV.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Collections.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Collections.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Glob.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Glob.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Jira.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Jira.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Logging.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Logging.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Mathplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Mathplotlib.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Openpyxl.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Openpyxl.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Pprint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Pprint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices/01_pytorch_workflow_ex.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/PyTorch/Exercices/01_pytorch_workflow_ex.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices/02_pytorch_classification_ex.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/PyTorch/Exercices/02_pytorch_classification_ex.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/PyTorch/Exercices/models/01_pytorch_workflow_EX_model_1.pth" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/PyTorch/Exercices/models/01_pytorch_workflow_EX_model_1.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/00_pytorch_fundamentals.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/PyTorch/Theory/00_pytorch_fundamentals.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/01_pytorch_workflow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/PyTorch/Theory/01_pytorch_workflow.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/02_pytorch_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/PyTorch/Theory/02_pytorch_classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/helper_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/PyTorch/Theory/helper_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/models/01_pytorch_workflow_model_0.pth" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/PyTorch/Theory/models/01_pytorch_workflow_model_0.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/PyTorch/Theory/models/01_pytorch_workflow_model_1.pth" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/PyTorch/Theory/models/01_pytorch_workflow_model_1.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Python code to remeber.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Python code to remeber.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/SQLAlchemy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/SQLAlchemy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/SQLModel.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/SQLModel.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Sqlite3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Sqlite3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Thread.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Thread.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Threading.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Threading.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Time.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Time.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Timeit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Timeit.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/Unittest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/Unittest.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Python/pyclickup.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python/Libraries/pyclickup.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +66,8 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="8c01a042-b9e7-4256-8eaa-c5da716622c0" />
-        <option name="url" value="https://github.com/MichielSaey/Python_handbooks.git" />
+        <option name="accountId" value="cd841579-b70f-4bcc-b374-929b08d55de1" />
+        <option name="url" value="https://github.com/MichielSaey/Coding-Handbooks.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -107,14 +135,14 @@
       <recent name="C:\Users\michi\DataspellProjects\Python_handbooks\Theory\Algoritmes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\michi\DataspellProjects\Python_handbooks\Practice\Coding Chanlanges\Advent Of Code\2023" />
+      <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Python\Libraries" />
       <recent name="C:\Users\michi\DataspellProjects\Python_handbooks\Theory\Algoritmes\Knuth-Morris-Pratt" />
       <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\3 Processen Recursie versus Iteratie" />
       <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\2 Procedures, condities en blokstructuren" />
       <recent name="C:\Users\Michiel\PycharmProjects\Coding-Handbooks\Practice\Scheme\1 Expressies en Procedures" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Docker.db: Compose Deployment">
     <configuration name="day_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Handbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,10 +236,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.day_3" />
-        <item itemvalue="Python.day_2" />
         <item itemvalue="Docker.Docker.dynamodb: Compose Deployment" />
         <item itemvalue="Docker.Docker.db: Compose Deployment" />
         <item itemvalue="Docker.Docker/Dockerfile" />
+        <item itemvalue="Python.day_2" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +292,11 @@
       <workItem from="1701514413075" duration="25048000" />
       <workItem from="1701807924794" duration="4663000" />
       <workItem from="1701873752401" duration="2281000" />
-      <workItem from="1702047304747" duration="4556000" />
+      <workItem from="1702047304747" duration="4876000" />
+      <workItem from="1702241075762" duration="3959000" />
+      <workItem from="1702245960140" duration="2000" />
+      <workItem from="1702294184193" duration="2342000" />
+      <workItem from="1702545453093" duration="12324000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin libraries">
       <option name="closed" value="true" />
@@ -361,15 +393,39 @@
       <option name="project" value="LOCAL" />
       <updated>1701899206642</updated>
     </task>
-    <task id="LOCAL-00013" summary="day 4 finished">
+    <task id="LOCAL-00013" summary="day 3">
       <option name="closed" value="true" />
-      <created>1702389486607</created>
+      <created>1702055743487</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1702389486607</updated>
+      <updated>1702055743487</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="day 3 work continues">
+      <option name="closed" value="true" />
+      <created>1702245032907</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702245032907</updated>
+    </task>
+    <task id="LOCAL-00015" summary="day 5 star 1 plus notes on star two">
+      <option name="closed" value="true" />
+      <created>1702485524051</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702485524051</updated>
+    </task>
+    <task id="LOCAL-00016" summary="day 5 part two done">
+      <option name="closed" value="true" />
+      <created>1702561101941</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702561101941</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,27 +455,31 @@
     <MESSAGE value="advent of code day 1 hcnage + added scheme version of kmp" />
     <MESSAGE value="day 2" />
     <MESSAGE value="day 2 part one" />
-    <MESSAGE value="day 4 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 4 finished" />
+    <MESSAGE value="day 3" />
+    <MESSAGE value="day 3 work continues" />
+    <MESSAGE value="day 5 star 1 plus notes on star two" />
+    <MESSAGE value="day 5 part two done" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 5 part two done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_3/day_3.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5/day_5.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_3/day_3.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5/day_5_2.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="line_prifex" />
+        <watch expression="result" />
       </configuration>
     </watches-manager>
   </component>
@@ -428,14 +488,13 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Coding_Handbooks$day_1_solution.coverage" NAME="day_1_solution Coverage Results" MODIFIED="1701730920433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1" />
+    <SUITE FILE_PATH="coverage/Coding_Handbooks$day_5.coverage" NAME="day_5 Coverage Results" MODIFIED="1702557964046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5" />
+    <SUITE FILE_PATH="coverage/Coding_Handbooks$day_5_2.coverage" NAME="day_5_2 Coverage Results" MODIFIED="1702560275624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5" />
     <SUITE FILE_PATH="coverage/Coding_Handbooks$day_2.coverage" NAME="day_2 Coverage Results" MODIFIED="1702048108655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2" />
-    <SUITE FILE_PATH="coverage/Python_handbooks$day_4.coverage" NAME="day_4 Coverage Results" MODIFIED="1702389357850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_4" />
-    <SUITE FILE_PATH="coverage/Python_handbooks$day_2.coverage" NAME="day_2 Coverage Results" MODIFIED="1701878311346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2" />
+    <SUITE FILE_PATH="coverage/Python_handbooks$day_2.coverage" NAME="day_2 Coverage Results" MODIFIED="1701876901483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_2" />
     <SUITE FILE_PATH="coverage/Coding_Handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701788247199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1" />
-    <SUITE FILE_PATH="coverage/Python_handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701540486904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023" />
-    <SUITE FILE_PATH="coverage/Coding_Handbooks$day_3.coverage" NAME="day_3 Coverage Results" MODIFIED="1702052783742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_3" />
-    <SUITE FILE_PATH="coverage/Python_handbooks$day_3.coverage" NAME="day_3 Coverage Results" MODIFIED="1702375825558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_3" />
-    <SUITE FILE_PATH="coverage/Python_handbooks$day_5.coverage" NAME="day_5 Coverage Results" MODIFIED="1702398381529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Challenges/Advent Of Code/2023/day_5" />
+    <SUITE FILE_PATH="coverage/Coding_Handbooks$day_3.coverage" NAME="day_3 Coverage Results" MODIFIED="1702296744736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_3" />
+    <SUITE FILE_PATH="coverage/Python_handbooks$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1701539113814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023" />
+    <SUITE FILE_PATH="coverage/Coding_Handbooks$day_1_solution.coverage" NAME="day_1_solution Coverage Results" MODIFIED="1701730920433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice/Coding Chanlanges/Advent Of Code/2023/day_1" />
   </component>
 </project>
