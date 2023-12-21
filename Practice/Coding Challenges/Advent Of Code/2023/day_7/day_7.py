@@ -50,26 +50,26 @@ class Hand:
             card.amount = card_count[card.value]
 
         if 5 in card_count.values():
-            return "7"
+            hand.type = 7
         elif 4 in card_count.values():
-            return "6"
+            hand.type = 6
         elif 3 in card_count.values() and 2 in card_count.values():
-            return "5"
+            hand.type = 5
         elif 3 in card_count.values():
-            return "4"
+            hand.type = 4
         elif list(card_count.values()).count(2) > 1:
-            return "3"
+            hand.type = 3
         elif 2 in card_count.values():
-            return "2"
+            hand.type = 2
         else:
-            return "1"
+            hand.type = 1
 
     def sort(self):
         self.sorted_cards = sorted(self.cards, key=functools.cmp_to_key(card_strength_sort), reverse=True)
 
     def to_string(self):
         cards = ""
-        for card in self.sorted_cards:
+        for card in self.cards:
             cards += card.value
         return f"Hand: {cards}, Bid: {self.bid}"
 
@@ -98,19 +98,19 @@ def hand_strength_sort(hand1: Hand, hand2: Hand) -> int:
 
     index = 0
     for index in range(len(hand1.cards)):
-        if hand1.sorted_cards[index] != hand2.sorted_cards[index]:
-            if hand1.sorted_cards[index].amount != hand2.sorted_cards[index].amount:
-                return (hand1.sorted_cards[index].amount > hand2.sorted_cards[index].amount) - (hand1.sorted_cards[index].amount < hand2.sorted_cards[index].amount)
-            return card_strength_sort(hand1.sorted_cards[index], hand2.sorted_cards[index])
+        if hand1.cards[index].value != hand2.cards[index].value:
+            if hand1.cards[index].amount != hand2.cards[index].amount:
+                return (hand1.cards[index].amount > hand2.cards[index].amount) - (hand1.cards[index].amount < hand2.cards[index].amount)
+            return card_strength_sort(hand1.cards[index], hand2.cards[index])
 
 
 if __name__ == '__main__':
     hands_and_bids = read_input("day_7.txt")
     sorted_hands_and_bids = sorted(hands_and_bids, key=functools.cmp_to_key(hand_strength_sort))
     total_winnings = 0
-    for index, hand in enumerate(sorted_hands_and_bids):
-        winnings = (index + 1) * hand.bid
+    for index, hand in enumerate(sorted_hands_and_bids, start=1):
+        winnings = (index) * hand.bid
         total_winnings += winnings
-        print((index + 1), hand.to_string(), f"Winnings: {winnings}")
+        print(index, f"Cards: {hand.to_string()}", f"Bid: {hand.bid}", f"Winnings: {winnings}")
 
     print(total_winnings)
